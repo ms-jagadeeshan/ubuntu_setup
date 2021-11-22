@@ -672,3 +672,9 @@ cd ..
 git clone https://github.com/ms-jagadeeshan/ubuntu_setup.git
 git push -u origin master
 cd ../
+git status
+git add .
+git commit -m "dotfiles and ubuntu setup"
+git push
+clear
+exit
