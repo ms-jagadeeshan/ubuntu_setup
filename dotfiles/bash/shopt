@@ -1,0 +1,29 @@
+#!/bin/sh
+
+
+## Misc
+shopt -s histappend                 ## Appends hist on exit
+shopt -s cmdhist                    ## Save multi-line hist as one line
+shopt -s checkwinsize               ## Update col/lines after commands
+
+
+### Completion ### {{{
+# shopt -s autocd 2>/dev/null         ## Can change dir without `cd`
+shopt -s cdspell                    ## Fixes minor spelling errors in cd paths
+shopt -s no_empty_cmd_completion    ## Stops empty line tab comp
+shopt -s dirspell 2>/dev/null       ## Tab comp can fix dir name typos
+### End Completion ### }}}
+
+
+# enable programmable completion features (you don't need to enable
+# this, if it's already enabled in /etc/bash.bashrc and /etc/profile
+# sources /etc/bash.bashrc).
+if ! shopt -oq posix; then
+  if [ -f /usr/share/bash-completion/bash_completion ]; then
+    . /usr/share/bash-completion/bash_completion
+  elif [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+  fi
+fi
+
+

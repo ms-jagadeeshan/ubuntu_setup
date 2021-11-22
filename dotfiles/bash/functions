@@ -1,0 +1,115 @@
+#!/bin/bash
+
+## Colours and font styles
+## Syntax: echo -e "${FOREGROUND_COLOUR}${BACKGROUND_COLOUR}${STYLE}Hello world!${RESET_ALL}"
+
+# Escape sequence and resets
+ESC_SEQ="\x1b["
+RESET_ALL="${ESC_SEQ}0m"
+RESET_BOLD="${ESC_SEQ}21m"
+RESET_UL="${ESC_SEQ}24m"
+
+# Foreground colours
+FG_BLACK="${ESC_SEQ}30m"
+FG_RED="${ESC_SEQ}31m"
+FG_GREEN="${ESC_SEQ}32m"
+FG_YELLOW="${ESC_SEQ}33m"
+FG_BLUE="${ESC_SEQ}34m"
+FG_MAGENTA="${ESC_SEQ}35m"
+FG_CYAN="${ESC_SEQ}36m"
+FG_WHITE="${ESC_SEQ}37m"
+FG_BR_BLACK="${ESC_SEQ}90m"
+FG_BR_RED="${ESC_SEQ}91m"
+FG_BR_GREEN="${ESC_SEQ}92m"
+FG_BR_YELLOW="${ESC_SEQ}93m"
+FG_BR_BLUE="${ESC_SEQ}94m"
+FG_BR_MAGENTA="${ESC_SEQ}95m"
+FG_BR_CYAN="${ESC_SEQ}96m"
+FG_BR_WHITE="${ESC_SEQ}97m"
+
+# Background colours (optional)
+BG_BLACK="40m"
+BG_RED="41m"
+BG_GREEN="42m"
+BG_YELLOW="43m"
+BG_BLUE="44m"
+BG_MAGENTA="45m"
+BG_CYAN="46m"
+BG_WHITE="47m"
+
+# Font styles
+FS_REG="0m"
+FS_BOLD="1m"
+FS_UL="4m"
+
+install_deb()
+{
+    cd ~/Downloads
+    deb_name=$(basename $1)
+    echo -e ${FG_BLUE}"Downloading ${deb_name}"${RESET_ALL}
+    wget -q $1
+    echo -e ${FG_BLUE}"Installing ${deb_name}"${RESET_ALL}
+    sudo dpkg -i ${deb_name}
+    rm -v ${deb_name}
+    cd -
+ 
+}
+
+### Extract Function ### {{{
+## Extract most types of compressed files
+function extract {
+    echo Extracting $1 ...
+    if [ -f $1 ] ; then
+        case $1 in
+            *.tar.bz2)  tar xjf $1      ;;
+            *.tar.gz)   tar xzf $1      ;;
+            *.bz2)      bunzip2 $1      ;;
+            *.rar)      rar x $1        ;;
+            *.gz)       gunzip $1       ;;
+            *.tar)      tar xf $1       ;;
+            *.tbz2)     tar xjf $1      ;;
+            *.tgz)      tar xzf $1      ;;
+            *.zip)      unzip $1        ;;
+            *.Z)        uncompress $1   ;;
+            *.7z)       7z x $1         ;;
+            *.xz)       xz -d $1        ;; 
+            *)          echo "'$1' cannot be extracted via extract()" ;;
+        esac
+        else
+        echo "'$1' is not a valid file"
+    fi
+}
+### End Extract ### }}}
+
+### Man Function ### {{{
+## Color man pages with less (is a `most` way too...)
+man() {
+    env \
+    LESS_TERMCAP_mb=$(printf "\e[1;31m") \
+    LESS_TERMCAP_md=$(printf "\e[1;31m") \
+    LESS_TERMCAP_me=$(printf "\e[0m") \
+    LESS_TERMCAP_se=$(printf "\e[0m") \
+    LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
+    LESS_TERMCAP_ue=$(printf "\e[0m") \
+    LESS_TERMCAP_us=$(printf "\e[1;32m") \
+    man "$@"
+}
+### End Man ### }}}
+
+backup() { cp "$1"{,.bak};}
+
+
+
+### Mpv Search Youtube ### {{{
+## mm "search terms"
+function mm() {
+    mpv --no-video --ytdl-format=bestaudio ytdl://ytsearch10:"$@"
+}
+### End Mpv Search ### }}}
+
+### Remove gps exif ### {{{
+## Iterates over contents of current dir
+function exifclean() {
+    exiftool -p '$filepath $gpslatitude $gpslongitude' -a -gps:all * 2> /dev/null | awk '{system("exiftool -overwrite_original '-gps*=' "$1" 2>/dev/null")}'
+}
+### Remove gps exif ### }}}

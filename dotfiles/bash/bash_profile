@@ -1,0 +1,35 @@
+#!/bin/sh
+
+so() { for f in $@; do [ -s $1 ] && source "$f"; done; }
+
+so ~/.bash/export                    ## Exports
+so ~/.bash/shopt                     ## Shopts
+so ~/.bash/installcheck              ## Checks for installs, $MISSING_PROGRAMS
+so ~/.bash/colors
+### Interactive ### {{{
+if [[ $- == *i* ]]; then
+    so ~/.bash/prompt                ## COMMAND_PROMPT function
+    so ~/.bash/aliases                 ## Alias
+    so ~/.bash/functions             ## Functions
+fi
+### End Interactive ### }}}
+
+
+so ~/.bash/profile                        # main configuration
+so ~/.local/*.bash                        # machine specific config. not tracked
+
+### Overrides ### {{{
+## Easy per host conf for tracking
+so ~/.bash/hosts/${HOSTNAME}_conf    ## configuration per OS linux/OSX
+
+## This is last, so it can override everything.
+# Less fighting with mini installs.
+so ~/.bash/bashrc.local              ## machine specific config. not tracked
+so ~/.bashrc.local                      ## machine specific config. not tracked
+### End Overrides ### }}}
+
+
+[ -d ~/bin ] && export PATH=~/bin:$PATH # users' ~/bin/ takes precedence
+[ -d ~/.local/bin ] && export PATH=~/.local/bin:$PATH # untracked local stuff
+
+# vim: ft=sh
