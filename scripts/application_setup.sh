@@ -110,13 +110,15 @@ StartupNotify=true' | tee $HOME/.local/share/applications/waterfox.desktop >/dev
 }
 
 install_vscode() {
+    pushd ~/Downloads
     echo_color -y "Downloading gpg keys..."
     wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor >packages.microsoft.gpg
     echo_color -y "Installing keys to /etc/apt/trusted.gpg.d/"
     sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
     sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
-
+    rm packages.microsoft.gpg
     sudo apt-get update && echo_color -y "Installing VS code...." && sudo apt-get install -y code
+    popd
 }
 
 install_monero_wallet() {
@@ -286,7 +288,6 @@ for ((i = ${#apps[@]}; i > 0; i--)); do
     fi
 done
 
-
 # checking whether app exists
 for ((i = ${#dependencies[@]}; i > 0; i--)); do
     dpkg -s "${dependencies[$i - 1]}" &>/dev/null
@@ -301,8 +302,8 @@ for ((i = ${#dependencies[@]}; i > 0; i--)); do
 done
 
 # Adding universe and multiverse repository
-sudo apt-add-repository universe
-sudo apt-add-repository multiverse
+sudo apt-add-repository -y universe
+sudo apt-add-repository -y multiverse
 
 # apt update
 tput setaf 3
