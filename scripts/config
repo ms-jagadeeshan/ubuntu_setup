@@ -1,0 +1,40 @@
+#!/bin/sh
+
+### Uncomment it if you dont want to execute ###
+RUN_DEBLOAT=false
+# KEYBINDINGS_SETUP=false
+APPLICATION_SETUP=false
+DOTFILES_SETUP=false
+# PROJECTS_SETUP=false
+
+### Config to add hosts list /etc/hosts
+#  1)Unified hosts = (adware +malware)
+#  2)Unified hosts + fakenews
+#  3)Unified hosts + gambling
+#  4)Unified hosts + porn
+#  5)Unified hosts + social
+#  6)Unified hosts + fakenews + gambling
+#  7)Unified hosts + fakenews + porn
+#  8)Unified hosts + fakenews + social
+#  9)Unified hsots + gambling + porn
+# 10)Unified hosts + gambling + social
+# 11)Unified hosts + porn + social
+# 12)Unified hosts + fakenews + gambling + porn
+# 13)Unified hosts + fakenews + gambling + social
+# 14)Unified hosts + fakenews + porn + social
+# 15))Unified hosts + fakenews + gambling + porn + social"
+## put your option in HOST_OPTION
+## Uncomment if you don't want to run
+# RUN_HOST_SH=false
+HOST_OPTION=12
+
+# Uncomment it if you don't want to install
+INSTALL_VSCODE=false
+INSTALL_STREMIO=false
+INSTALL_CLOUDFARE=false
+INSTALL_GO_COMPILER=false
+INSTALL_TEAMS=false
+INSTALL_TELEGRAM=false
+INSTALL_XMRIG=false
+INSTALL_MONERO_WALLET=false
+INSTALL_WATERFOX=false

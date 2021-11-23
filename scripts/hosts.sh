@@ -18,7 +18,9 @@ links=(
     'https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn-social/hosts'
 )
 
-echo -e "\
+case $1 in
+-i)
+    echo -e "\
  1)Unified hosts = (adware +malware)
  2)Unified hosts + fakenews
  3)Unified hosts + gambling
@@ -34,8 +36,18 @@ echo -e "\
 13)Unified hosts + fakenews + gambling + social
 14)Unified hosts + fakenews + porn + social
 15))Unified hosts + fakenews + gambling + porn + social"
-printf "Choose Your option(1-15): "
-read choice
+    printf "Choose Your option(1-15): "
+    read choice
+    ;;
+-n)
+    choice="$2"
+    ;;
+
+*)
+    . ./config
+    choice="${HOST_OPTION:-12}"
+    ;;
+esac
 
 case $choice in
 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15)
@@ -43,5 +55,6 @@ case $choice in
     ;;
 *)
     echo "Enter valid choice"
+    exit 1
     ;;
 esac
