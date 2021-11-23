@@ -129,71 +129,46 @@ kdeconnect_firewall() {
 
 # Package required for the scripts
 dependencies=(
-
     #Don't comment any of it
     'apt-transport-https'
-
     'git'
-
     'make'
-
     'build-essential'
-
     'cmake'
-    # dependencies of stremio
+
+    ## dependencies of stremio
     'nodejs'
     'libmpv1'
     'qml-module-qtwebchannel'
-    #  'libfdk-aac1'
 
-    # chroot
+    #  'libfdk-aac1'
+    ## chroot
     'qemu' 'qemu-user-static' 'binfmt-support'
 )
 
 # Common application and development tools
 apps=(
-
     # Comment the apps you don't need
-    'g++' # c++ compiler
-
+    'g++'     # c++ compiler
     'plocate' # file searching tool , newer and faster alternative to mlocate
-
-    #  'mlocate'
-
+    # 'mlocate'
     'neovim' # popular fork of vim, and modernized vim
-
     'curl'
-
     'transmission' # popular torrent client
-
     'kdeconnect'
-
     'firefox' # web browser
-
     'neofetch'
-
-    'tree' # display files in tree format
-
+    'tree'       # display files in tree format
     'p7zip-full' # file archiver with high compression ratio
-
     'youtube-dl' # youtube downloader
-
     'obs-studio' # best screen recording tool
-
-    'kdenlive' # video editing tool
-
+    'kdenlive'   # video editing tool
     'flatpak'
-
     'gnome-boxes' # virtualization tool
-
-    'traceroute' # networking tool
-
+    'traceroute'  # networking tool
     'exiftool'
-
     'net-tools'
-
     'nmap'
-
     'mediainfo'
 )
 
