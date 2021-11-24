@@ -65,7 +65,7 @@ install_go_compiler() {
 
 install_xmrig() {
     echo_color -y "Installing git,build-essential,cmake,libuv-1-dev,libssl-dev,libhwloc-dev"
-    sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
+    sudo apt-get install -y git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
     mkdir -p ~/app_builds
     pushd ~/app_builds
     git clone https://github.com/xmrig/xmrig.git
@@ -136,14 +136,9 @@ dependencies=(
     'build-essential'
     'cmake'
 
-    ## dependencies of stremio
-    'nodejs'
-    'libmpv1'
-    'qml-module-qtwebchannel'
 
-    #  'libfdk-aac1'
-    ## chroot
-    'qemu' 'qemu-user-static' 'binfmt-support'
+    ## chroot raspberry pi
+    # 'qemu' 'qemu-user-static' 'binfmt-support'
 )
 
 # Common application and development tools
@@ -170,6 +165,7 @@ apps=(
     'net-tools'
     'nmap'
     'mediainfo'
+	'ocrmypdf'
 )
 
 # checking whether app exists
@@ -227,15 +223,6 @@ kdeconnect_firewall
 
 if ${INSTALL_VSCODE}; then
     install_vscode
-fi
-
-if ${INSTALL_STREMIO}; then
-    install_deb 'http://archive.ubuntu.com/ubuntu/pool/multiverse/f/fdk-aac/libfdk-aac1_0.1.6-1_amd64.deb'
-    install_deb 'https://dl.strem.io/shell-linux/v4.4.137/stremio_4.4.137-1_amd64.deb'
-fi
-
-if ${INSTALL_CLOUDFARE}; then
-    install_deb 'https://pkg.cloudflareclient.com/uploads/cloudflare_warp_2021_7_0_1_amd64_71a4c3056d.deb'
 fi
 
 if ${INSTALL_GO_COMPILER}; then
