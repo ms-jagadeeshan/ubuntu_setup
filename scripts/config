@@ -1,11 +1,12 @@
 #!/bin/sh
 
 ### Uncomment it if you dont want to execute ###
-RUN_DEBLOAT=false
-# KEYBINDINGS_SETUP=false
-APPLICATION_SETUP=false
-DOTFILES_SETUP=false
-# PROJECTS_SETUP=false
+# RUN_DEBLOAT=false # removes snap firefox and snap
+KEYBINDINGS_SETUP=false   # sets keybindings
+# APPLICATION_SETUP=false # installs applications
+# DOTFILES_SETUP=false    # sets up dotfile i.e .bashrc,etc..
+PROJECTS_SETUP=false      # downloads my git projects
+# GNOME_EXTENSION_SETUP=false
 
 ### Config to add hosts list /etc/hosts
 #  1)Unified hosts = (adware +malware)
@@ -29,12 +30,27 @@ DOTFILES_SETUP=false
 HOST_OPTION=12
 
 # Uncomment it if you don't want to install
-INSTALL_VSCODE=false
-INSTALL_STREMIO=false
-INSTALL_CLOUDFARE=false
+ INSTALL_VSCODE=false
 INSTALL_GO_COMPILER=false
 INSTALL_TEAMS=false
-INSTALL_TELEGRAM=false
+ INSTALL_NOISETORCH=false
+
+ INSTALL_TELEGRAM=false
+TELEGRAM_INSTALL_DIR="~/app_builds"
+
 INSTALL_XMRIG=false
+XMRIG_INSTALL_DIR="~/app_builds"
+
 INSTALL_MONERO_WALLET=false
-INSTALL_WATERFOX=false
+MONERO_WALLET_INSTALL_DIR="~/app_builds"
+
+ INSTALL_WATERFOX=false
+WATERFOX_INSTALL_DIR="/usr/local/bin"
+
+ INSTALL_VENTOY=false
+VENTOY_INSTALL_DIR="~/app_builds"
+
+### Temporary directory to download the files
+TEMP_DIR="~/tmp"
+
+

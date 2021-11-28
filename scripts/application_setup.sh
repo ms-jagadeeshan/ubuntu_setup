@@ -4,13 +4,20 @@
 . ./config
 . ./functions.sh
 
+install_ventoy() {
+    local INSTALL_DIR="${VENTOY_INSTALL_DIR:-~/app_builds}"
+    mkdir -p ${INSTALL_DIR}
+    pushd ${INSTALL_DIR} >/dev/null
+    echo_color -y "Downloading and extracting tar archive to ${INSTALL_DIR}"
+    wget -qO- $1 | tar -xz -C ${INSTALL_DIR}
+    popd >/dev/null
+}
+
 install_waterfox() {
-    if [ ! -d "~/Downloads" ]; then
-        mkdir -p ~/Downloads
-    fi
-    pushd ~/Downloads
+    pushd ${TEMP_DIR} >/dev/null
+    sudo rm -rf /usr/local/bin/waterfox
     echo_color -y "Downloading waterfox tar archive"
-    wget -qO- https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.2.1/waterfox-G4.0.2.1.en-US.linux-x86_64.tar.bz2 | sudo tar -xj -C '/usr/local/bin/'
+    wget -qO- $1 | sudo tar -xj -C '/usr/local/bin/'
     sudo chmod +x /usr/local/bin/waterfox/waterfox
     if [ ! -d "${HOME}/.local/share/applications" ]; then
         mkdir -p "${HOME}/.local/share/applications"
@@ -29,73 +36,77 @@ Categories=GNOME;GTK;Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
 StartupNotify=true' | tee $HOME/.local/share/applications/waterfox.desktop >/dev/null
     echo_color -y "Desktop shortcut created!!"
-    popd
+    popd >/dev/null
 }
 
 install_vscode() {
-    pushd ~/Downloads
+    pushd ${TEMP_DIR} >/dev/null
     echo_color -y "Downloading gpg keys..."
     wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor >packages.microsoft.gpg
-    echo_color -y "Installing keys to /etc/apt/trusted.gpg.d/"
+    echo_color -b "Installing keys to /etc/apt/trusted.gpg.d/"
     sudo install -o root -g root -m 644 packages.microsoft.gpg /etc/apt/trusted.gpg.d/
     sudo sh -c 'echo "deb [arch=amd64 signed-by=/etc/apt/trusted.gpg.d/packages.microsoft.gpg] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
     rm packages.microsoft.gpg
     sudo apt-get update && echo_color -y "Installing VS code...." && sudo apt-get install -y code
-    popd
+    popd >/dev/null
 }
 
 install_monero_wallet() {
-
-    mkdir -p ~/app_builds
-    pushd ~/app_builds
-    wget -qO- https://downloads.getmonero.org/gui/linux64 | tar -xj
-    popd
+    local INSTALL_DIR="${MONERO_WALLET_INSTALL_DIR:-~/app_builds}"
+    mkdir -p ${INSTALL_DIR}
+    pushd ${INSTALL_DIR} >/dev/null
+    echo_color -b "Installing Monero wallet to ${INSTALL_DIR}"
+    wget -qO- $1 | tar -xj -C ${INSTALL_DIR}
+    popd >/dev/null
 }
 
 install_go_compiler() {
-    cd ~/Downloads
+    pushd ${TEMP_DIR} >/dev/null
     echo_color -b "Downloading Go Binary files"
     wget -q 'https://golang.org/dl/go1.17.3.linux-amd64.tar.gz'
-    echo_color -b"Installing go to /usr/local"
+    echo_color -b "Installing go to /usr/local"
     sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.17.3.linux-amd64.tar.gz
     rm -v go*linux-amd64.tar.gz
     echo 'export PATH=$PATH:/usr/local/go/bin' >>~/.bashrc
-    popd
+    popd >/dev/null
 }
 
 install_xmrig() {
+    local INSTALL_DIR="${XMRIG_INSTALL_DIR:-~/app_builds}"
+    mkdir -p ${INSTALL_DIR}
+    pushd ${INSTALL_DIR} >/dev/null
     echo_color -y "Installing git,build-essential,cmake,libuv-1-dev,libssl-dev,libhwloc-dev"
     sudo apt-get install -y git build-essential cmake libuv1-dev libssl-dev libhwloc-dev
-    mkdir -p ~/app_builds
-    pushd ~/app_builds
     git clone https://github.com/xmrig/xmrig.git
-    mkdir xmrig/build && pushd xmrig/build
+    mkdir xmrig/build && pushd xmrig/build >/dev/null
     cmake ..
     make $(nproc)
     echo_color -g "xmrig compiled!!"
-    popd
-    popd
+    popd >/dev/null
+    popd >/dev/null
 }
 
 install_telegram() {
-    pushd ~/Downloads
+    local INSTALL_DIR="${TELEGRAM_INSTALL_DIR:-~/app_builds}"
+    mkdir -p ${INSTALL_DIR}
+    pushd ${INSTALL_DIR} >/dev/null
     echo_color -y "Downloading Telegram appimage tar file"
-    wget -q 'https://telegram.org/dl/desktop/linux' -O - | tar -xJ
-    echo_color -y "Telegram appimage downloaded to ~/Downloads"
-    popd
+    wget -q 'https://telegram.org/dl/desktop/linux' -O - | tar -xJ -C ${INSTALL_DIR}
+    echo_color -y "Telegram appimage downloaded to ${TELEGRAM_INSTALL_DIR}"
+    popd >/dev/null
 
 }
 
 install_noisetorch() {
-    pushd ~/Downloads
+    pushd ${TEMP_DIR} >/dev/null
     echo_color -b "Downloading NoiseTorce binary tar file"
-    wget -q https://github.com/lawl/NoiseTorch/releases/download/0.11.4/NoiseTorch_x64.tgz
+    wget -q $1
     echo_color -b "Unpacking NoiceTorch"
     tar -C $HOME -xzf NoiseTorch_x64.tgz
     echo_color -b "Setting up permission"
     sudo setcap 'CAP_SYS_RESOURCE=+ep' ~/.local/bin/noisetorch
     rm -v NoiseTorch_x64.tgz
-    popd
+    popd >/dev/null
 }
 
 uninstall_noisetorch() {
@@ -105,14 +116,14 @@ uninstall_noisetorch() {
 }
 
 install_deb() {
-    pushd ~/Downloads
+    pushd ${TEMP_DIR} >/dev/null
     deb_name=$(basename $1)
     echo_color -b "Downloading ${deb_name}"
     wget -q $1
     echo_color -b "Installing ${deb_name}"
     sudo dpkg -i ${deb_name}
     rm -v ${deb_name}
-    popd
+    popd >/dev/null
 }
 
 obs_wayland_support() {
@@ -127,6 +138,10 @@ kdeconnect_firewall() {
     sudo ufw reload
 }
 
+check() {
+    TEMP_DIR="${TEMP_DIR:-~/tmp}"
+    mkdir -p ${TEMP_DIR}
+}
 # Package required for the scripts
 dependencies=(
     #Don't comment any of it
@@ -135,8 +150,6 @@ dependencies=(
     'make'
     'build-essential'
     'cmake'
-
-
     ## chroot raspberry pi
     # 'qemu' 'qemu-user-static' 'binfmt-support'
 )
@@ -165,8 +178,11 @@ apps=(
     'net-tools'
     'nmap'
     'mediainfo'
-	'ocrmypdf'
+    'ocrmypdf'
+    'aria2'
 )
+
+check
 
 # checking whether app exists
 for ((i = ${#apps[@]}; i > 0; i--)); do
@@ -212,11 +228,41 @@ echo_color -y "Installing ${dependencies[@]}"
 sudo apt-get install -y "${dependencies[@]}"
 
 # installing apps
-echo_color -y "Installing ${apps[@]}"
-sudo apt-get install -y "${apps[@]}"
+case "$1" in
+-i)
+    apps_str=""
+    apps_bool=""
+    echo ${apps[*]}
+    for app in "${apps[@]}"; do
+        apps_str+="${app};"
+        apps_bool+="1;"
+    done
+    echo $apps_str
+    multiChoice "Select apps to install:" result "${apps_str}" "${apps_bool}"
+    final_app_list=""
 
-#### Uncomment this if you use obs studio in wayland ####
-obs_wayland_support
+    for ((i = ${#apps[@]}; i > 0; i--)); do
+        if [[ "${result[*]}" =~ "$i" ]]; then
+            printf ""
+        else
+            unset apps[i]
+        fi
+    done
+    echo_color -y "Installing ${apps[@]}"
+    sudo apt-get install -y "${apps[@]}"
+    ;;
+
+*)
+    echo_color -y "Installing ${apps[@]}"
+    sudo apt-get install -y "${apps[@]}"
+    ;;
+
+esac
+
+#### obs studio in wayland ####
+if [[ "${XDG_SESSION_TYPE}" == "wayland" ]]; then
+    obs_wayland_support
+fi
 
 #### Uncomment this if you kdeconnect not detecting device  ####
 kdeconnect_firewall
@@ -229,9 +275,15 @@ if ${INSTALL_GO_COMPILER}; then
     install_go_compiler
 fi
 
+### RELEASE PAGE: https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams ###
 if ${INSTALL_TEAMS}; then
     install_deb 'https://packages.microsoft.com/repos/ms-teams/pool/main/t/teams/teams_1.4.00.7556_amd64.deb'
     sudo apt --fix-broken -y install
+fi
+
+### RELEASE PAGE: https://github.com/lawl/NoiseTorch/releases/ ###
+if ${INSTALL_NOISETORCH}; then
+    install_noisetorch 'https://github.com/lawl/NoiseTorch/releases/download/0.11.4/NoiseTorch_x64.tgz'
 fi
 
 if ${INSTALL_XMRIG}; then
@@ -239,9 +291,15 @@ if ${INSTALL_XMRIG}; then
 fi
 
 if ${INSTALL_MONERO_WALLET}; then
-    install_monero_wallet
+    install_monero_wallet 'https://downloads.getmonero.org/gui/linux64'
 fi
 
+### RELEASE PAGE: https://github.com/WaterfoxCo/Waterfox/releases  ###
 if ${INSTALL_WATERFOX}; then
-    install_waterfox
+    install_waterfox 'https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.3.1/waterfox-G4.0.3.1.en-US.linux-x86_64.tar.bz2'
+fi
+
+### RELEASE PAGE: https://github.com/ventoy/Ventoy/releases  ###
+if ${INSTALL_VENTOY}; then
+    install_ventoy 'https://github.com/ventoy/Ventoy/releases/download/v1.0.61/ventoy-1.0.61-linux.tar.gz'
 fi
