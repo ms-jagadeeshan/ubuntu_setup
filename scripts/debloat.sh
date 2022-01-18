@@ -1,5 +1,6 @@
 #!/bin/bash
 
+. ./functions.sh
 echo_color -y "Romoving snap firefox, if exists...."
 sudo snap remove --purge firefox
 sudo rm -rf /var/cache/snapd/

@@ -15,6 +15,8 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 
+alias rm='rm -i'
+
 alias tf='tail -f '
 alias Bstats='f() { history|cut -d\  -f4-5|sort|uniq -c|sort -rn|head -${1:-30}; }; f'
 #  this function computes it and compares it using grep: md5check [file] [key]

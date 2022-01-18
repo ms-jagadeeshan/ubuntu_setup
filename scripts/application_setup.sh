@@ -1,11 +1,12 @@
 #!/bin/bash
 
+set -x -e
 ### Sourcing the config and functions
 . ./config
 . ./functions.sh
 
 install_ventoy() {
-    local INSTALL_DIR="${VENTOY_INSTALL_DIR:-~/app_builds}"
+    local INSTALL_DIR=${VENTOY_INSTALL_DIR:-~/app_builds}
     mkdir -p ${INSTALL_DIR}
     pushd ${INSTALL_DIR} >/dev/null
     echo_color -y "Downloading and extracting tar archive to ${INSTALL_DIR}"
@@ -52,7 +53,7 @@ install_vscode() {
 }
 
 install_monero_wallet() {
-    local INSTALL_DIR="${MONERO_WALLET_INSTALL_DIR:-~/app_builds}"
+    local INSTALL_DIR=${MONERO_WALLET_INSTALL_DIR:-~/app_builds}
     mkdir -p ${INSTALL_DIR}
     pushd ${INSTALL_DIR} >/dev/null
     echo_color -b "Installing Monero wallet to ${INSTALL_DIR}"
@@ -63,7 +64,7 @@ install_monero_wallet() {
 install_go_compiler() {
     pushd ${TEMP_DIR} >/dev/null
     echo_color -b "Downloading Go Binary files"
-    wget -q 'https://golang.org/dl/go1.17.3.linux-amd64.tar.gz'
+    wget -q 'https://go.dev/dl/go1.17.6.linux-amd64.tar.gz'
     echo_color -b "Installing go to /usr/local"
     sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.17.3.linux-amd64.tar.gz
     rm -v go*linux-amd64.tar.gz
@@ -72,7 +73,7 @@ install_go_compiler() {
 }
 
 install_xmrig() {
-    local INSTALL_DIR="${XMRIG_INSTALL_DIR:-~/app_builds}"
+    local INSTALL_DIR=${XMRIG_INSTALL_DIR:-~/app_builds}
     mkdir -p ${INSTALL_DIR}
     pushd ${INSTALL_DIR} >/dev/null
     echo_color -y "Installing git,build-essential,cmake,libuv-1-dev,libssl-dev,libhwloc-dev"
@@ -87,7 +88,7 @@ install_xmrig() {
 }
 
 install_telegram() {
-    local INSTALL_DIR="${TELEGRAM_INSTALL_DIR:-~/app_builds}"
+    local INSTALL_DIR=${TELEGRAM_INSTALL_DIR:-~/app_builds}
     mkdir -p ${INSTALL_DIR}
     pushd ${INSTALL_DIR} >/dev/null
     echo_color -y "Downloading Telegram appimage tar file"
@@ -114,6 +115,14 @@ uninstall_noisetorch() {
     rm -v ~/.local/share/applications/noisetorch.desktop
     rm -v ~/.local/share/icons/hicolor/256x256/apps/noisetorch.png
 }
+
+install_slimbook_battery() {
+    sudo add-apt-repository -y ppa:slimbook/slimbook
+    sudo apt-get update
+    sudo apt install -y slimbookbattery
+}
+
+
 
 install_deb() {
     pushd ${TEMP_DIR} >/dev/null
@@ -154,6 +163,9 @@ dependencies=(
     # 'qemu' 'qemu-user-static' 'binfmt-support'
 )
 
+appimages=(
+	'https://github.com/firedm/FireDM/releases/download/2021.11.18/FireDM-2021.11.18-x86_64.AppImage'
+)
 # Common application and development tools
 apps=(
     # Comment the apps you don't need
@@ -163,6 +175,7 @@ apps=(
     'neovim' # popular fork of vim, and modernized vim
     'curl'
     'transmission' # popular torrent client
+    'valgrind'  
     'kdeconnect'
     'firefox' # web browser
     'neofetch'
@@ -180,6 +193,12 @@ apps=(
     'mediainfo'
     'ocrmypdf'
     'aria2'
+    'vsftpd'
+    'screen'
+    'shellcheck'
+    'espeak'
+    'mbrola-us1' 'mbrola-us2' 'mbrola-us3' 'mbrola-en1'
+    'recode'
 )
 
 check
@@ -296,10 +315,14 @@ fi
 
 ### RELEASE PAGE: https://github.com/WaterfoxCo/Waterfox/releases  ###
 if ${INSTALL_WATERFOX}; then
-    install_waterfox 'https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.3.1/waterfox-G4.0.3.1.en-US.linux-x86_64.tar.bz2'
+    install_waterfox 'https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.4/waterfox-G4.0.4.en-US.linux-x86_64.tar.bz2'
 fi
 
 ### RELEASE PAGE: https://github.com/ventoy/Ventoy/releases  ###
 if ${INSTALL_VENTOY}; then
     install_ventoy 'https://github.com/ventoy/Ventoy/releases/download/v1.0.61/ventoy-1.0.61-linux.tar.gz'
+fi
+
+if ${INSTALL_SLIMBOOK_BATTERY}; then
+    install_slimbook_battery
 fi

@@ -1,680 +1,3404 @@
-vim bash_profile 
-sudo apt install mpv
-clear
-exit
-mm "bash"
-function mm() {     mpv --no-video --ytdl-format=bestaudio ytdl://ytsearch10:"$@"; }
-mm headless rpi
-mm raspberry pi setup headless
-mm "raspberry pi setup headless"
-exit
-function mm() {     mpv --ytdl-format=bestaudio ytdl://ytsearch10:"$@"; }
-mm "raspberry pi setup headless"
-exittdl://ytsearch10:"$@"; }
-exit
-function mm() {     mpv --ytdl-format=bestaudio+bestvideo ytdl://ytsearch10:"$@"; }
-mm "raspberry pi setup headless"
-function mm() {     mpv --ytdl-format=bestvideo+bestaudio ytdl://ytsearch10:"$@"; }
-mm "raspberry pi setup headless"
-cd projects/useful_scripts/
-ls
-vim functions.sh 
-ls
-mv functions.sh ../ubuntu_workflow_setup/dotfiles/bash/functions 
-ls
-exit
-cd ../ubuntu_workflow_setup/dotfiles/bash/
-cat functions 
-clearexit
-exit
-cd
-ls -al
-cd
-ls
-ls
-cd
-ls
-ls -a
-ls -al
-man ls
-man ln
-cd projects/ubuntu_workflow_setup/scripts/
-ls
-vim application_setup.sh 
-exit
-ip a
-sudo nmap -sn 0.42.0.1/24
-sudo nmap -sn 10.42.0.1/24
-ssh pi@raspberrypi.local
-sudo nmap -sn 0.42.0.1/24
-sudo nmap -sn 10.42.0.1/24
-exit
-ls projects/
-sudo apt-get install nmap
-exit
-kernelgraph 
-exi
-exit
-gmail() { curl -u "$1" --silent "https://mail.google.com/mail/feed/atom" | sed -e 's///'}
-gmail() { curl -u "$1" --silent "https://mail.google.com/mail/feed/atom" | sed -e 's///' }
-gmail() { curl -u "$1" --silent "https://mail.google.com/mail/feed/atom" | sed -e 's@@@' }
-curl -u "jagadeeshanmsj" --silent "https://mail.google.com/mail/feed/atom" | sed -e 's///'
-curl -u "jagadeeshanmsj" --silent "https://mail.google.com/mail/feed/atom"
-curl -u "jagadeeshanmsj@gmail.com" --silent "https://mail.google.com/mail/feed/atom"
-curl -u "jagadeeshanmsj@gmail.com"  "https://mail.google.com/mail/feed/atom"
-curl ifconfig.me
-curl ifconfig.me/host
-curl ifconfig.me && curl ifconfig.me/host
-exit
-ssh freak!
-histg frea
-ssh freak@207.148.27.101
-histg roo
-ssh root@207.148.27.101
-exit
-wget linuxfreak.xyz
-exit
-cd 
-cd projects/ubuntu_workflow_setup/scripts/
-vim application_setup.sh 
-exit
-networkctl up 
-systemctl start systemd-networkd
-networkctl up wlp0s20f3 
-sudo networkctl up wlp0s20f3 
-sudo networkctl down wlp0s20f3 
-sudo networkctl up wlp0s20f3 
-sudo networkctl down wlp0s20f3 
-networkctl list
-networkctl status
-systemctl stop systemd-networkd.service 
-systemctl stop systemd-networkd.socket 
-clear
-exit
-ls
-openvpn client.ovpn
-ssh abc@dklf
-ssh pi@raspberrypi
-ssh pi@raspberrypi.local
-sftp freak@207.148.27.101
-clear
-ls
-sudo apt install openvpn
-clear
-sudo su
-ipinfo
-curl ipinfo.me
-sudo apt install network-manager-openvpn-gnome 
-network-manager-openvpn-gnome 
-cd /mnt/
-ls
-mkdir /mnt/raspbian
-sudo mkdir -p  /mnt/raspbian
-echo $1
-df
-sudo apt install qemu qemu-user-static binfmt-support
-cd ../
-cd
-sudo su
-sudo apt install torbrowser-launcher 
-touch static.key
-vim static.key 
+npm whoami 
+npm list
+ccd
+npm list
+npm list
+./projects/leetcode-cli/bin/install 
+sudo ./projects/leetcode-cli/bin/install 
+./bin/pkg
+locate node_modules
+locate node_modules | grep -v code
+sbs
+rm -rf node_modules/
+sudo rm -rf node_modules/
+sudo apt install nodejs
+ping charlesproxy.com
+sudo apt install wireshark
+sudo apt remove --purge npm
+sudo apt install yarn
+yarn global add npm
+sudo apt install npm
+npm install
+npm install error
+npm cache clean 
+npm
+npm install -g npm@latest
+npm -v
+npm
+./leetcode 
+node --trace-warnings ...
+node --trace-warnings leetcode 
+python3 main.py 
+python3 main.py  > tmp.html
+xdg-open tmp.html 
+cat tmp.html 
+less tmp.html 
+python3 main.py  > tmp.html
+less tmp.html 
+python3 -u "/home/jaga-matrix/projects/leetcode/main.py"
+npm cache clear --force
+sudo apt install npm
+sudo npm install
+npm audit fix
+sudo npm audit fix
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+reset
+which node
+node ./bin/pkg
+npm install leetcode-cli.node12.linux.x64.tar.gz 
+npm install leetcode-cli.node12.linux.x64.tar.gz  -g
+npm update
+npm 
+npm install semver
+sudo npm cache clean -f
+sudo npm install -g n
+sudo n stable
+npm install -g npm@8.3.0
+sudo apt install nodejs
+sudo rm -rf /usr/local/lib/node_modules/
+sudo rm -rf .npm/
+sudo apt remove --purge node
+sudo apt remove --purge nodejs
+sudo apt install nodejs
+nodejs ./bin/pkg
 init 0
-cd
-ls
-cd /
-ls
-exit
-echo $tmp
-exit
-sudo apt-get install mediainfo\
-sudo apt-get install mediainfo
-man mediainfo 
-cd Videos/Webseries/Dark/S1
-ls
-mediainfo Dark.S01E10.Alpha.and.Omega.mkv 
-exiftool Dark.S01E10.Alpha.and.Omega.mkv 
-clear
-cd
-clear
-cd projects/ubuntu_workflow_setup/scripts/
-ls
-vim application_setup.sh 
-cd
-cd projects/ubuntu_workflow_setup/dotfiles/
-ls
-cd bash/
-ls
-vim bash_profile 
-vim export
-ls
-vim bash_profile 
-ls
-vim bash_profile 
-vim colors
-vim export 
-vim aliases 
-vim bash_profile 
-vim shopt
-vim colors
-ls
-vim aliases 
-vim export 
-cat shopt 
-shopt -s autocd 2>/dev/null
-cd
-projects
-cd ubuntu_workflow_setup/dotfiles/
-bash
-cd bash/
-vim shopt 
-clear
-vim shopt 
-tmp=23
-echo $tmp
-bash
-vim export 
-alias ?="ggrep --color=auto --exclude-dir={$GREP_DIR_IGNORES} --exclude-from=$HOME/.ignore.grep"
-? tmp
-alias ?="grep --color=auto --exclude-dir={$GREP_DIR_IGNORES} --exclude-from=$HOME/.ignore.grep"
-? h
-alias ?="grep --color=auto --exclude-dir={$GREP_DIR_IGNORES} "
-? tm
-? tmp
-ls
-clear
-vim aliases 
-clear
-alias E='f(){ $EDITOR ${*:-.};}; f'
-E
-E export 
-cat export 
-E 
-E a
-E ls
-ls
-clear
-alias reload='exec bash -l'
-reload
-tmp=a
-echo $tmp
-alias reload='exec bash -l'
-reload
-echo $tmp
-man bash
-clear
-exit
-cd projects/ubuntu_workflow_setup/dotfiles/
-ls
-cd bash/
-ls
-vim bash_profile 
-ps1='\[${rst}${bwht}${bgblk}\]\D{%H:%M}'
-ps1+='\[${rst}${bpur}\]$( __git_ps1 "%s" )'
-ps1+='\[${rst}${tgrn}\]$( _git_status_stats "[%s]" )'
-ps1+='\[${rst}${tylw}\]$( ssh_prompt)'
-ps1+='\[${rst}${tred}\]$( V=$PIPESTATUS; if [[ $V -gt 0 ]]; then printf "%d" $V ; fi )'
-ps1+='\n'
-ps1+='\[${rst}${tylw}\]\W'
-ps1+='\[${tgrn}\]\$'
-ps1+='\[${rst}\] '
-PS1="$ps1"
-clear
-exitstatus() {     if [[ $? == 0 ]]; then         echo ':)';     else         echo 'D:';     fi; }
-PS1='$(exitstatus) > '
-ls
-ls /boot/
-ls /boot/grub/
-ls /boot/efi/
-PS0="dfas"
-sleep 100
-fafd\
-PS2="dfa> "
-sfclear
-clear
-PS1="$(awk '/MemFree/{print $2}' /proc/meminfo) prompt > "
-clear
-ls
-bash
-clear
-rightprompt() {     printf "%*s" $COLUMNS "right prompt"; }
-PS1='\[$(tput sc; rightprompt; tput rc)\]left prompt > '
-clear
-tput cup $((LINES - 11)) $((COLUMNS - 6))
-j
-PS1='\[\e]2;new title\a\]prompt > '
-clear
-ls
-exit
-echo $HOSTNAME
-##### My (demuredemeanor) bashrc sub source prompt script
-# Uses tabstop=4; shiftwidth=4 tabs; foldmarker={{{,}}};
-# https://notabug.org/demure/dotfiles/
-# legacy repo http://github.com/demure/dotfiles
-# vim:set syntax=bash:
-## This Changes The PS1
-export PROMPT_COMMAND=__prompt_command      # Func to gen PS1 after CMDs
-function __prompt_command() {     local EXIT=${PIPESTATUS[-1]}            # This needs to be first
-    PS1=""
-    local RCol='\[\e[0m\]'  # Text Reset
-    local Bla='\[\e[0;30m\]';    local BBla='\[\e[1;30m\]';    local UBla='\[\e[4;30m\]';    local IBla='\[\e[0;90m\]';    local BIBla='\[\e[1;90m\]';    local On_Bla='\e[40m';    local On_IBla='\[\e[0;100m\]';     local Red='\[\e[0;31m\]';    local BRed='\[\e[1;31m\]';    local URed='\[\e[4;31m\]';    local IRed='\[\e[0;91m\]';    local BIRed='\[\e[1;91m\]';    local On_Red='\e[41m';    local On_IRed='\[\e[0;101m\]';     local Gre='\[\e[0;32m\]';    local BGre='\[\e[1;32m\]';    local UGre='\[\e[4;32m\]';    local IGre='\[\e[0;92m\]';    local BIGre='\[\e[1;92m\]';    local On_Gre='\e[42m';    local On_IGre='\[\e[0;102m\]';     local Yel='\[\e[0;33m\]';    local BYel='\[\e[1;33m\]';    local UYel='\[\e[4;33m\]';    local IYel='\[\e[0;93m\]';    local BIYel='\[\e[1;93m\]';    local On_Yel='\e[43m';    local On_IYel='\[\e[0;103m\]';     local Blu='\[\e[0;34m\]';    local BBlu='\[\e[1;34m\]';    local UBlu='\[\e[4;34m\]';    local IBlu='\[\e[0;94m\]';    local BIBlu='\[\e[1;94m\]';    local On_Blu='\e[44m';    local On_IBlu='\[\e[0;104m\]';     local Pur='\[\e[0;35m\]';    local BPur='\[\e[1;35m\]';    local UPur='\[\e[4;35m\]';    local IPur='\[\e[0;95m\]';    local BIPur='\[\e[1;95m\]';    local On_Pur='\e[45m';    local On_IPur='\[\e[0;105m\]';     local Cya='\[\e[0;36m\]';    local BCya='\[\e[1;36m\]';    local UCya='\[\e[4;36m\]';    local ICya='\[\e[0;96m\]';    local BICya='\[\e[1;96m\]';    local On_Cya='\e[46m';    local On_ICya='\[\e[0;106m\]';     local Whi='\[\e[0;37m\]';    local BWhi='\[\e[1;37m\]';    local UWhi='\[\e[4;37m\]';    local IWhi='\[\e[0;97m\]';    local BIWhi='\[\e[1;97m\]';    local On_Whi='\e[47m';    local On_IWhi='\[\e[0;107m\]';     if [ ${UID} -eq "0" ];then         PS1+="${Red}\h \W ->${RCol} "       ## Set prompt for root
-      else         local PSCol=""                      ## Declare so null var fine
-        local PSOpt=""                      ## Above, and fixes repeat issue         if [ ${EXIT} != 0 ]; then             PS1+="${Red}${EXIT}${RCol}"     ## Add exit code, if non 0
-        fi
-        local SHost="$(echo $HOSTNAME | awk 'match($0,/^[a-zA-Z0-9]+/) {print substr($0,RSTART,RLENGTH)}')";         if [ ${HOSTNAME} == 'moving-computer-of-doom' ]; then             local PSCol="$Cya"              ## For Main Computer
-        elif [ ${HOSTNAME} == 'vps-of-doom' ]; then             local PSCol="$Blu"              ## For VPS
-            local PSOpt="${SHost} ";         elif [ ${HOSTNAME} == 'ma.sdf.org' ]; then             local PSCol="${Yel}"            #@ For MetaArray
-            local PSOpt="\h ";         elif [ ${HOSTNAME} == 'fencepost.gnu.org' ]; then             local PSCol="${On_Pur}"         ## For Gnu
-            local PSOpt="\h ";         elif [ ${HOSTTYPE} == 'arm' ]; then             local PSCol="$Gre"              #@ For pi
-            local PSOpt="${SHost} ";         elif [ ${OSTYPE} == 'linux-android' ]; then             local PSCol="$Gre"              #@ For Android Termux`
-        elif [[ ${MACHTYPE} =~ arm-apple-darwin ]]; then             local PSCol="$Gre"              ## For iOS
-        elif [ ${MACHTYPE} == 'i486-pc-linux-gnu' ]; then             local PSCol="$BBla"             ## For Netbook
-            local PSOpt="${SHost} ";         elif [[ "${MACHTYPE}" == "x86_64--netbsd" && "${OSTYPE}" == "netbsd" ]]; then             local PSCol="${Yel}"            ## For Main Cluster
-            local PSOpt="\h ";         elif [ "${MACHTYPE}" == "mips-openwrt-linux-gnu" ]; then             local PSCol="${On_Pur}"         ## For OpenWrt
-            local PSOpt="\h ";           else             local PSCol="${Pur}"            ## Un-designated catch-all
-            if [ ! ${HOSTNAME} == 'localhost' ]; then                 local PSOpt="\h ";               else                 PSOS="$(awk -F '=' '/^ID=/ {print $2}' /etc/*release)";                 local PSOpt="[${PSOS}] ";             fi;             MISSING_ITEMS+="machine-prompt, ";         fi         PS1+="${PSCol}${PSOpt}\W${RCol}"    ## Current working dir
-        type jobs &>/dev/null;         if [ ${PIPESTATUS[-1]} == 0 ]; then
-            local BKGJBS=$(jobs -r | wc -l | tr -d ' ');             if [ ${BKGJBS} -gt 2 ]; then                 PS1+=" ${Red}[bg:${BKGJBS}]${RCol}";             elif [ ${BKGJBS} -gt 0 ]; then                 PS1+=" ${Yel}[bg:${BKGJBS}]${RCol}";             fi
-            local STPJBS=$(jobs -s | wc -l | tr -d ' ');             if [ ${STPJBS} -gt 2 ]; then                 PS1+=" ${Red}[stp:${STPJBS}]${RCol}";             elif [ ${STPJBS} -gt 0 ]; then                 PS1+=" ${Yel}[stp:${STPJBS}]${RCol}";             fi;         fi
-        if [[ $(command -v git) ]]; then
-            local GSP="$(git status --porcelain=2 --branch 2>/dev/null)"             if [ -n "${GSP}" ]; then
-                local LAST=$(stat -c %Y $(git rev-parse --git-dir 2>/dev/null)/FETCH_HEAD 2>/dev/null);                 if [ -n "${LAST}" ]; then                     local TIME=$(echo $(($(date +"%s") - ${LAST})))
-                    if [ "${TIME}" -gt "3600" ]; then                         local GF=1      ## Git Fetch True
-                    fi;                   else                     local GF=1          ## Git Fetch True
-                fi;                 if [ -n "${GF}" ] && [ "${GF}" == "1" ]; then                     git fetch 2>/dev/null;                     PS1+=' +'
-                    local GSP="$(git status --porcelain=2 --branch 2>/dev/null)";                 fi
-                local GSPcc="$(grep -c "^[12] .M" <<< "${GSP}")";                 if [ "${GSPcc}" == "0" ]; then                     local GBC=$Gre                  ## Branch Color
-                  else                     local GBC=$Red                  ## Branch Color
-                fi
-                local GSPcb="$(awk '/branch.head/ {print $3}' <<< "${GSP}")";                 if [ -n "${GSPcb}" ]; then                     GSPcb="[${GSPcb}]"              ## Add brackets for final output. Will now test against brackets as well.
-                    if [ "${GSPcb}" == "[master]" ]; then                         local GSPcb="[M]"           ## Because why waste space
-                    fi
-                    if [ "${GSPcb}" == "[(detached)]" ]; then
-                        local GSPcb="$(awk '/branch.oid/ {print substr($3,0,8)}' <<< "${GSP}")";                     fi;                   else
-                    local GSPcb="ERROR"             ## It could happen?
-                fi                 PS1+=" ${GBC}${GSPcb}${RCol}"       ## Add result to prompt
-                local GSPca="$(awk '/branch.ab/ {print substr($3,2)}' <<< "${GSP}")";                 if [ -n "${GSPca}" ] && [ "${GSPca}" -gt 0 ]; then                     PS1+="${Gre}↑${RCol}${GSPca}"   ## Ahead
-                fi
-                local GSPcb="$(awk '/branch.ab/ {print substr($4,2)}' <<< "${GSP}")";                 if [ -n "${GSPcb}" ] && [ "${GSPcb}" -gt 0 ]; then                     PS1+="${Red}↓${RCol}${GSPcb}"   ## Behind
-                fi
-                local GSPm="$(grep -c "^[12] .M" <<< "${GSP}")";                 if [ "${GSPm}" -gt "0" ]; then                     PS1+="${Pur}≠${RCol}${GSPm}"    ## Modified
-                fi
-                local GSPd="$(grep -c "^[12] D" <<< "${GSP}")";                 if [ "${GSPd}" -gt "0" ]; then                     PS1+="${Red}✖${RCol}${GSPd}"    ## Deleted
-                fi
-                local GSPa="$(grep -c "^[12] A" <<< "${GSP}")";                 if [ "${GSPa}" -gt "0" ]; then                     PS1+="${Gre}✚${RCol}${GSPa}"    ## Added
-                fi
-                local GSPr="$(grep -c "^[12] R" <<< "${GSP}")";                 if [ "${GSPr}" -gt "0" ]; then                     PS1+="${Blu}☇${RCol}${GSPr}"    ## Renamed
-                fi
-                local GSPu="$(grep -c "^?" <<< "${GSP}")";                 if [ "${GSPu}" -gt "0" ]; then                     PS1+="${Yel}?${RCol}${GSPu}"    ## Untracked
-                fi
-            fi;           else             MISSING_ITEMS+="git-prompt, ";         fi
-        if [ "$(type -t _z)" = "function" ]; then             (_z --add "$(command pwd '$_Z_RESOLVE_SYMLINKS' 2>/dev/null)" 2>/dev/null &);         fi         PS1+=" ${PSCol}-> ${RCol}"          ## End of PS1
-    fi; }
-clea
-clear
-ls
-ls sf
-cd Do
-cd lib/
-ls
-git status
-cd class
-cd class-joiner-v2/
-cd
-clear
-ls
-echo f-adf
-cd afa
-cd a
-cd
-bash
-ps1='\[${rst}${bwht}${bgblk}\]\D{%H:%M}'
-PS1='\[${rst}${bwht}${bgblk}\]\D{%H:%M}'
-PS1+='\[${rst}${bpur}\]$( __git_ps1 "%s" )'
-PS1+='\[${rst}${tred}\]$( V=$PIPESTATUS; if [[ $V -gt 0 ]]; then printf "%d" $V ; fi )'
-PS1+='\n'
-PS1+='\[${rst}${tylw}\]\W'
-PS1+='\[${tgrn}\]\$'
-PS1+='\[${rst}\] '
-clear
-cd Downloads/
-ls
-clear
-man tail
-tail -f /var/log/syslog
-du -ah
-du -ash
-du -sh
-clear
-alias Bstats='f() { history|cut -d\  -f4-5|sort|uniq -c|sort -rn|head -${1:-30}; }; f'
-Bstats 
-exit
-ls -al
-clear
-exit
-cd
-ls -al
-ln -s /home/jaga_matrix/projects/ubuntu_setup/dotfiles/bash .bash
-ln -sf /home/jaga_matrix/projects/ubuntu_setup/dotfiles/bash .bash
-ls -al
-ln -sf /home/jaga_matrix/projects/ubuntu_setup/dotfiles/bash_history .bash_history
-ln -sf /home/jaga_matrix/projects/ubuntu_setup/dotfiles/bashrc .bashrc
-exit
-ln -sf ${HOME}/projects/ubuntu_setup/dotfiles/bashrc ~/.bashrc
-cd
-ls -al
-exit
-cd
-cd .bash
-cd bash
-cd
-cd .bash
-exit
-ls -al
-rm bash
-exit
-cd
-rm .bash
-exit
-cd projects/ubuntu_workflow_setup/dotfiles/bash/
-ls
-vim prompt
-vim bash_profile 
-ls
-mkdir hosts
-cd hosts/
-cd ../
-vim bash_profile 
-vim export 
-clear
-cat bash_profile 
-cd hosts/
-vim turing-machine_conf
-cd ../
-vim bash_profile 
-cd ../
-ls
-cat bash
-cat bashrc 
-ls
-cat bashrc 
-vim bashrc 
-ls
-cd bash/
-ls
-vim colors 
-vim aliases 
-vim bash_profile 
-cd ../
-cd scripts/
-ls
-cat test.sh 
-rm test.sh 
-cat text.sh 
-clear
-ls
-cat main.sh 
-cat projects_setup.sh 
-ca keybindings.sh 
-cat keybindings.sh 
-ls
-cat debloat.sh 
-./debloat.sh 
-vim application_setup.sh 
-ls
-man ln
-vim dotfiles.sh
-./debloat.sh 
-chmod +x dotfiles.sh 
-./dotfiles.sh 
-cd ../
-cd dotfiles/
-ls
-cd bash/
-ls
-cd -
-cd u
-cd s
-cd ../scripts/
-ls
-vim dotfiles.sh 
-clear
-exit
-command -v
-man command 
-command -v la
-command -v ls
-command -v l
-command -v lfa
-echo $?
-command -v l
-echo $?
-echo PATH
-echo $PATH
-cat /etc/profile
-cat .profile 
-vim projects/ubuntu_workflow_setup/dotfiles/
-vim projects/ubuntu_workflow_setup/dotfiles/.bash_profile 
-cd  projects/ubuntu_workflow_setup/dotfiles/bash/hosts/
-vim turing-machine_conf 
-clear
-cd ../../
-ls
-rm .bash_profile 
-ls
-cd bash/
-ls
-cd bash
-ls
-cd ..
-rm bash
-ln -sf ~/projects/ubuntu_setup/dotfiles/bash ~/.bash
-ls
-rm bash
-ln -sf ~/projects/ubuntu_setup/dotfiles/bash ~/.bash
-ls
-cd ../
-ls
-cd ../
-ls
-cd
-cd .vscode/
-ls
-cd extensions/
-ls
-cd ../
-cat argv.json 
-cd 
-cd .bash
-ls -al
-cd
+code leetcode-cli/
+code leetcode
+lls
+python3 main.py 
+python3 main.py  | less
+./leetcode 
+node --trace-warnings
+./leetcode user -l
+node
+./leetcode help
+./leetcode list
+./leetcode list cpp
+./leetcode user
+./leetcode user
+./leetcode user -l
+node --trace-warning ./leetcode 
+node --trace-warnings ./leetcode 
+python3 main.py 
+python3 main.py  | less
+python3 main.py  | less
+init 0
+python3 -u "/home/jaga-matrix/projects/leetcode/main.py"
+0python3 -u "/home/jaga-matrix/projects/leetcode/main.py"
+python3 -u "/home/jaga-matrix/projects/leetcode/main.py"
+code ./
+leetcode user -l -v
+leetcode user -l -v
+./leetcode user -l -v
+cp cookies.sqlite  ~/cookie.sqlite
+mv cookie.sqlite projects/leetcode
+sudo apt-get install mysql-server
+mysql
+man mysql
+sudo mysql 
+sudo mysql 
+mysql cookie.sqlite
+sudo mysql cookie.sqlite
+sudo apt install sqlite
+sudo apt install sqlite3
+sqlite3 
+python3 -u "/home/jaga-matrix/projects/leetcode/tmp.py"
 ls 
+ls -sh
+rm tos4i4st.default-defaultcookies.sqlite 
+cp cookies.sqlite ~/projects/leetcode
+rm cookies.sqlite sam.sqlite 
+rm cookie.sqlite
+rls
+rm cookie.sqlite-*
+lear
+cp cookies.sqlite ~/projects/leetcode/
+python3
+python3 -u "/home/jaga-matrix/projects/leetcode/tempCodeRunnerFile.py"
+python3 -u "/home/jaga-matrix/projects/leetcode/tmp.py"
+python3 -u "/home/jaga-matrix/projects/leetcode/main.py"
+cp cookie.sqlite sam.sqlite
+sqlite3 
+python3 -u "/home/jaga-matrix/projects/leetcode/tmp.py"
+/bin/python3
+python3 -u "/home/jaga-matrix/projects/leetcode/main.py"
+cat config 
+lls
+python3
+node 
+code leetcode
+mkdir cs-club
+gedit config 
+code ./
+nmcli device wifi hotspot 
+nmcli dev wifi show-password
+s
+tree
+cat install.sh 
+cat script.sh 
+tree
+cat client.rs 
+cat cmd.rs 
+less lib.rs 
+less error.rs 
+less config.rs 
+less main.rs 
+less client.rs 
+python3 -u "/home/jaga-matrix/projects/cs-club/leetcode-cli/main.py"
+/bin/bash "/home/jaga-matrix/projects/lyrics-scrapper/songs.sh"
+./sample.sh -d "Ennavale adi ennavale song masstamilan.in
+./sample.sh -d "Ennavale adi ennavale song masstamilan.in"
+echo {0}3
+echo {0..0}
+printf "%0.s0;"
+printf "%0.s0;" {1..10]
+printf "%0.s0;" {1..10}
+echo tmp=10
+tmp=10
+printf "%0.s0;" {1..$tmp}
+printf "%0.s0;" {1C..$${tmp}}
+printf "%-30s" "*"
+echo $(yes % | head -n3)
+yes 3
+man yes
+command yes
+command -v yes
+echo %{,,}
+echo %{,,,}
+echo %{}
+echo %{.}
+echo %{1}
+echo $tmp
+echo printf '=%.0s' {1..\$tmp}
+echo "printf '=%.0s' {1..\$tmp}"
+echo "printf '=%.0s' {1..$tmp}"
+eval "printf '=%.0s' {1..$tmp}"
+eval "printf '0;%.0s' {1.$tmp}"
+eval "printf '0;%0.s0;' {1.$tmp}"
+ce=lear
+eval "printf '%0.s0;' {1.$tmp}"
+echo $-
+echo $+
+echo $-
+echo "printf '%0.s0;' {1.$tmp}"
+eval "printf '%0.s0;' {1.$tmp}"
+eval "printf '%0.s0;' {1..$tmp}"
+bool_str=$(eval "printf '%0.s0;' {1..$tmp}")
+echo $bool_str 
+man wget
+wget --help
+wget --limit-rate=1k https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz
+ls -alh
+rm go1.10.3.linux-amd64.tar.gz 
+wget --limit-rate=1k -b https://dl.google.com/go/go1.10.3.linux-amd64.tar.gz
+tail -f wget-log 
+ps
+wait
+kill -9 28708
+mcd tmp
+wget --limit-rate=1k -b -i list.txt 
+tail -f wget-log 
+wget --limit-rate=1k -b -i list.txt 
+tail -f wget-log.1 
+kill -9 28886
+rm -rf tmp
+rm go1.10.3.linux-amd64.tar.gz 
+cat leet.html 
+rm leet.html 
+cat tmp.sh 
+cat tmp1.sh 
+rm wget-log 
+cat wget-log 
+rm wget-log 
+man wget
+cat thalli-pogathey-mp3-song-26 
+rm thalli-pogathey-mp3-song-26 
+xdg-open Thalli\ Pogathey\ --Masstamilan.In.mp3\; 
 ls -al
-rm .bash_aliases 
-ls -al
-ls -al
-clear
-cd
-ls
-ls -al
-ln -s /home/jaga_matrix/projects/ubuntu_workflow_setup/dotfiles/bash /home/jaga_matrix/.bash
-cd
-ls
-ls -al
-cd
-gedit .bashrc
-pwd
-exit
-pwd
-exit
-CUR_DIR=$(realpath ${PWD}/../dotfiles)
-echo $CUR_DIR 
-ls -al
-cd
-ls -al
-cat application_setup.sh 
-cd 
-pushd asd
+file Thalli\ Pogathey\ --Masstamilan.In.mp3\; 
+rm Thalli\ Pogathey\ --Masstamilan.In.mp3\; 
+./songs.sh "Ennavale adi ennavale song download masstamilan in"
+./songs.sh "Ennavale adi ennavale song download masstamilan in"
+read --hel
+read --help
+man read
+command read
+command -vread
+command -v read
+lear
+sleep 10 && echo hello &
+tail -f wget-log 
+/bin/bash "/home/jaga-matrix/projects/lyrics-scrapper/songs.sh"
+./songs.sh "Ennavale adi ennavale song download masstamilan in
+./songs.sh "Ennavale adi ennavale song download masstamilan in"
+echo "$(tput rev)"reversed text"$(tput sgr0)"
+./songs.sh "Thalli pogathey song download masstamilan in"
+cat out.testt 
+rm out.testt 
+./songs.sh "Thalli pogathey song download masstamilan in"
+echo $tmp
+./songs.sh "Ennavale adi ennavale song downlaod masstamilan"
+sleep 10 ; wait ; echo hello
+array=( 0 1 2 )
+tmp=1
+echo ${array[$tmp]}
+tmp=2
+echo ${array[$tmp]}
+./songs.sh "Ennavale adi ennavale song downlaod masstamilan"
+tmp=3
+bash
+./songs.sh "Ennavale adi ennavale song downlaod masstamilan"
+while IFS=";" read -r line ; do echo $line ; done
+while IFS=";" read -r line ; do echo $line ; done < text.ext
+while IFS=";" read -r line ; do echo $line ; done < text.txt
+
+./songs.sh "Ennavale adi ennavale song downlaod masstamilan"
+rm Urvasi\ Urvasi-\ \[Masstamilan.In\]-.mp3 Ennavale\ Adi\ Ennavale\ \[Masstamilan.In\]-.mp3 Kaatru\ Kuthirayile-\ \[Masstamilan.In\]-.mp3 
+./songs.sh "Ennavale adi ennavale song downlaod masstamilan"
+curl -s https://masstamilans.com/teddy.html >sample.html
+cat sample.html |  pup 'table#tlist tr td a attr{href}'
+cat sample.html |  pup 'table#tlist tr td a attr{href}' | recode html..ISO-8859-1
+cat sample.html |  pup 'table#tlist span text{}' 
+cat sample.html |  pup 'table#tlist span b text{}' 
+cat sample.html |  pup 'table#tlist span b, table#tlist span text{}' 
+cat sample.html |  pup 'table#tlist span b text{}' 
+cat sample.html |  pup 'table#tlist span  text{}' 
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d'
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' 
+printf -v pasteargs "%*s" 3
+printf -v pasteargs "%*s" 2
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\ - ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\ ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\  ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\ - ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\ -${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\ -  ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\\ - ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\\\ - ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\\\- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\\\\- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\\\\ - ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\\- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\" "- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\" \"- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\\" \"- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs/ / /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs//- /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs//  /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\ - ${pasteargs//  /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- }
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- } | tr '\n' ';'
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- } | tr '\n' ';' | sed 's/  //g'
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- } | tr '\n' ';' | sed 's/ //g'
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- } | tr '\n' ';' | sed 's/[[:blank:]]//g'
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- } | tr '\n' ';' | sed 's/[[:blank:]]+//g'
+cat sample.html |  pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' |  paste -d\- ${pasteargs// /- } | tr '\n' ';' 
+curl -s https://masstamilan.fm/valimai-songs >sample.html
+cat sample.html  | pup 'table#tlist tr td a attr{href}
+cat sample.html  | pup 'table#tlist tr td a attr{href}'
+cat sample.html  | pup 'table#tlist tr td a[class="dlink anim umami--click--dl320"] attr{href}'
+cat sample.html  | pup 'table#tlist tr td a[class="dlink anim umami--click--dl128"] attr{href}'
+cat sample.html  | pup 'table#tlist tr td a[class="dlink anim umami--click--dl128"] attr{href}' | sed 's//f/g'
+cat sample.html  | pup 'table#tlist tr td a[class="dlink anim umami--click--dl128"] attr{href}' | sed 's/^/f/g'
+cat sample.html  | pup 'table#tlist tr td a[class="dlink anim umami--click--dl128"] attr{href}' | sed 's/^/https://masstamilan.fm/g'
+cat sample.html  | pup 'table#tlist tr td a[class="dlink anim umami--click--dl128"] attr{href}' | sed 's/^/https:\/\/masstamilan.fm/g'
+wget https://masstamilan.fm
+rm index.html 
+
+rm 21437 
+cat sample.html  | pup 'table#tlist tr td a[class="dlink anim umami--click--dl128"] attr{href}' | sed 's/^/https:\/\/masstamilan.fm/g'
+cat sample.html  | pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' | paste -d\- ${pasteargs// /- } | tr '\n' ';'
+cat sample.html  | pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' 
+cat sample.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d'
+cat sample.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ' '
+cat sample.html | pup 'tab or "byArtist"le#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ';'
+cat sample.html | pup 'table#tlist span[itemprop="name" or "byArtist"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ' '
+cat sample.html | pup 'table#tlist span[itemprop="name"or"byArtist"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ' '
+cat sample.html | pup 'table#tlist span[itemprop="name"+itemprop="byArtist"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ' '
+cat sample.html | pup 'table#tlist span[itemprop="name"]+[itemprop="byArtist"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ' '
+cat sample.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ' '
+cat sample.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' '''
+cat sample.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ';'
+cat sample.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ';'
+cat sample.html | pup 'table#tlist span[itemprop="byArtist"] text{}, table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ';'
+cat sample.html | pup 'table#tlist span[itemprop="byArtist"] text{}, table#tlist span[itemprop="byArtist"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ';'
+cat sample.html | pup 'table#tlist span[itemprop="byArtist"] text{}, table#tlist span[itemprop="byArtist"] text{}' | sed '/^[[:blank:]]// |tr '\n' ';'
+cllear
+cat sample.html | pup 'table#tlist span[itemprop="byArtist"] text{}, table#tlist span[itemprop="byArtist"] text{}' | sed '/^[[:blank:]]nametr '\n' ';'
+cllear
+rm Urvasi\ Urvasi-\ \[Masstamilan.In\]-.mp3\; 
+init 0
+cat sample.html |pup 'table#tlist span text{}'
+cat sample.html |pup 'table#tlist span[itemprop="name"] text{}'
+printf -v pasteargs "%*s" 2
+cat sample.html | pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' | paste -d\- ${pasteargs// /- } | tr '\n' ';'
+cat sample.html | pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' | paste -d\- [itemprop="name"]${pasteargs// /- } | tr '\n' ';'
+cat sample.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | paste -d\- ${pasteargs// /- } | tr '\n' ';'
+mv sample.html masstamilanfm.html
+curl -s https://masstamilan.in/ms-dhoni/ > masstamilanin.html
+curl -s https://masstamilans.com/teddy.html > masstamilanscom.html
+cat masstamilanscom.html | pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' | paste -d\- ${pasteargs// /- } | tr '\n' ';'
+cat masstamilanscom.html | pup 'table#tlist span b text{}' | sed '/^[[:blank:]]*$/d' | paste -d\- ${pasteargs// /- } | tr '\n' ';'
+cat masstamilanscom.html | pup 'table#tlist span b text{
+cat masstamilanscom.html | pup 'table#tlist span b text{} 
+cat masstamilanscom.html | pup 'table#tlist span b text{}'
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ';'
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ';'
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/  //g' | tr '\n' ';'
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/  //g' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/  //g' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/[[:blank:]]{2,}//g' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/[[:blank:]]//g' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/[[:blank:]]+//g' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/^[[:blank:]]//g' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/^[[:blank:]]+//g' 
+
+cat masstamilanin.html | pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' | sed 's/^[[:blank:]]//g' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/^[[:blank:]]+//g' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/^[[:blank:]]+//g' |
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}'
+cat masstamilanin.html | pup 'table#tlist span text{}'
+rm 18597  18600 
+rm *
+./songs.sh --simulate "teddy song download"
+./songs.sh -x "teddy song download"
+./songs.sh -b "teddy song download"
+./songs.sh -x "teddy song download"
+cat masstamilanfm.html | pup 'table#tlist span[itemprop="name"] text{} | 
+cat masstamilanfm.html | pup 'table#tlist span[itemprop="name"] text{}'
+cat masstamilanfm.html | pup 'table#tlist span text{}'
+printf -v pasteargs "%*s" 3
+cat masstamilanfm.html | pup 'table#tlist span text{}' | paste -d\- ${pasteargs// /- }
+cat masstamilanfm.html | pup 'table#tlist span text{}' | paste -d\ - ${pasteargs// /- }
+cat masstamilanfm.html | pup 'table#tlist span text{}' | paste -d\ -  ${pasteargs// /- }
+cat masstamilanfm.html | pup 'table#tlist span text{}' | paste -d\  -  ${pasteargs// /- }
+cat masstamilanfm.html | pup 'table#tlist span text{}' | paste -d\ -  ${pasteargs// /- }
+cat masstamilanfm.html | pup 'table#tlist span text{}' | paste -d\ - ${pasteargs// /- }
+cat masstamilanfm.html 
+curl -s https://masstamilan.fm/valimai-songs > masstamilanfm.html 
+cat masstamilanfm.html | pup 'table#tlist span text{}' | paste -d\ - ${pasteargs// /- }
+cat masstamilanfm.html | pup 'table#tlist span text{}'
+cat masstamilanfm.html | pup 'table#tlist[itemprop="name" span text{}'
+cat masstamilanfm.html | pup 'table#tlist[itemprop="name"] span text{}'
+cat masstamilanfm.html | pup 'table#tlist  span[itemprop="name"]  text{}'
+cat masstamilanfm.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d'
+cat masstamilanfm.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | tr '\n' ';'
+./songs.sh -x "teddy songs download"
+pushd ~
+cat masstamilanscom.html 
+cat masstamilanscom.html | pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' | paste -d\- ${pasteargs// /- } | tr '\n' ';'
+printf -v pasteargs "%*s" 2
+cat masstamilanscom.html | pup 'table#tlist span text{}' | sed '/^[[:blank:]]*$/d' | paste -d\- ${pasteargs// /- } | tr '\n' ';'
+cat masstamilanscom.html | pup 'table#tlist span b text{}' 
+cat masstamilanin.html 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/^[[:blank:]]*//g' | tr '\n' ';'
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' |
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/^[[:blank:]]*//g'
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed -e  's/^[[:blank:]]*//g ; s/[[:blank:]]*$//g ' 
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed -e  's/^[[:blank:]]*//g ; s/[[:blank:]]*$//g ' | tr '\n' ';'
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed '/^[[:blank:]]*$/d' | sed 's/^[[:blank:]]*//g' | tr '\n' ';'
+cat masstamilanin.html | pup 'table#tlist span[itemprop="name"] text{}' | sed -e '/^[[:blank:]]*$/d ; s/^[[:blank:]]*//g ; s/[[:blank:]]*$//g ' | tr '\n' ';'
 popd
-terminfo
-cmdinfo
-type pushd
-pushd
-cd ..
-pushd
+./songs.sh -x "Teddy songs download"
+tuxi "what is christmas"
+./songs.sh -x "Teddy songs download"
+./songs.sh  "Teddy songs download"
+wget
+./songs.sh -x  "Teddy songs download"
+./songs.sh -x "Teddy songs download"
+pushd ~
+cat masstamilanin.html |  pup 'table#tlist span[itemprop="name"] text{}' | sed -e '/^[[:blank:]]*$/d ; s/^[[:blank:]]*//g ; s/[[:blank:]]*$//g '
+./songs.sh -x  "Teddy songs download"
 popd
-pushd ..
-popd
-pushd //
-popd
-cd
-cat keybindings.sh 
-vim text.sh 
-echo_color() {     case $1 in         -r|--red)             tput setaf 1;             shift;             echo $@;             ;;         -g|--green)             tput setaf 2;             shift;             echo $@;             ;;         -y|--yellow)             tput setaf 3;             shift;             echo $@;             ;;         -b|--blue)             tput setaf 4;             shift;             echo $@;             ;;         *)             ;;     esac }
-install_waterfox() {     if [ ! -d "~/Downloads" ] ; then         mkdir -p ~/Downloads;     fi;     pushd ~/Downloads;     echo_color -y "Downloading waterfox tar archive";     wget -qO- https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.2.1/waterfox-G4.0.2.1.en-US.linux-x86_64.tar.bz2 | sudo tar -xj -C '/usr/local/bin/';     sudo chmod +x /usr/local/bin/waterfox/waterfox;     if [ ! -d "${HOME}/.local/share/applications" ]; then         mkdir -p "${HOME}/.local/share/applications";     fi;     sudo echo '[Desktop Entry]
-Version=1.0
-Name=Waterfox
-Comment=Browse the World Wide Web                                                                                                                                                                                                                                     
-GenericName=Web Browser                                                                                                                                                                                                                                               
-Keywords=Internet;WWW;Browser;Web;Explorer                                                                                                                                                                                                                            
-Terminal=false                                                                                                                                                                                                                                                        
-Type=Application                                                                                                                                                                                                                                                      
-Icon=/usr/local/bin/waterfox/browser/chrome/icons/default/default64.png                                                                                                                                                                                               
-Exec="/usr/local/bin/waterfox/waterfox"                                                                                                                                                                                                                               
-Categories=GNOME;GTK;Network;WebBrowser;                                                                                                                                                                                                                              
-MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
-StartupNotify=true' | sudo tee $HOME/.local/share/applications > /dev/null                                                                                                                                                                                            ;     echo_color -y "Desktop shortcut createdecho_color() {     case $1 in         -r|--red)             tput setaf 1;             shift;             echo $@;             ;;         -g|--green)             tput setaf 2;             shift;             echo $@;             ;;         -y|--yellow)             tput setaf 3;             shift;             echo $@;             ;;         -b|--blue)             tput setaf 4;             shift;             echo $@;             ;;         *)             ;;     esac }"                                                                                                                                                                                                                        ;     popd; }
-install_waterfox 
-cd
-cd .local/share/applications/
-cd /usr/local/bin/waterfox/browser/
-cd chrome/
-cd icons/
-cd default/
-xdg-open default64.png 
-cd
-echo '[Desktop Entry]     
-Version=1.0
-Name=Waterfox
-Comment=Browse the World Wide Web
-GenericName=Web Browser
-Keywords=Internet;WWW;Browser;Web;Explorer
-Terminal=false
-Type=Application
-Icon=/usr/local/bin/waterfox/browser/chrome/icons/default/default64.png
-Exec="/usr/local/bin/waterfox/waterfox"
-Categories=GNOME;GTK;Network;WebBrowser;
-MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
-StartupNotify=true' | tee $HOME/.local/share/applications/waterfox.desktop > /dev/null     
-echo '[Desktop Entry]     
-Version=1.0
-Name=Waterfox
-Comment=Browse the World Wide Web
-GenericName=Web Browser
-Keywords=Internet;WWW;Browser;Web;Explorer
-Terminal=false
-Type=Application
-Icon=/usr/local/bin/waterfox/browser/chrome/icons/default/default64.png
-Exec="/usr/local/bin/waterfox/waterfox"
-Categories=GNOME;GTK;Network;WebBrowser;
-MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
-StartupNotify=true' | tee $HOME/.local/share/applications/waterfox.desktop > /dev/null
-cdecho '[Desktop Entry]     
-Version=1.0
-Name=Waterfox
-Comment=Browse the World Wide Web
-GenericName=Web Browser
-Keywords=Internet;WWW;Browser;Web;Explorer
-Terminal=false
-Type=Application
-Icon=/usr/local/bin/waterfox/browser/chrome/icons/default/default64.png
-Exec="/usr/local/bin/waterfox/waterfox"
-Categories=GNOME;GTK;Network;WebBrowser;
-MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
-StartupNotify=true'
-echo '[Desktop Entry]     
-Version=1.0
-Name=Waterfox
-Comment=Browse the World Wide Web
-GenericName=Web Browser
-Keywords=Internet;WWW;Browser;Web;Explorer
-Terminal=false
-Type=Application
-Icon=/usr/local/bin/waterfox/browser/chrome/icons/default/default64.png
-Exec="/usr/local/bin/waterfox/waterfox"
-Categories=GNOME;GTK;Network;WebBrowser;
-MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
-StartupNotify=true'
-clear
-exit
-./hosts.sh 
-./hosts.sh < 1
-./hosts.sh < "1"
-vim application_setup.sh `
-vim application_setup.sh 
-vim hosts.sh 
-vim keybindings.sh 
-vim main.sh 
-cd 
-cd .config/
-cd mpv/
-l
+./songs.sh -x  "Teddy songs download"
+./songs.sh   "Teddy songs download"
+wget -P "/home/jaga-matrix/Music/" https://masstamilan.fm/downloader/hESdOs4hfGsQcymQ3V15dg/1640505963/d128_cdn/18607  -o "nanbiye.mp3"
+man wget
+wget --help
+curl --help
+curl --help all
+wget -P "/home/jaga-matrix/Music/" https://masstamilan.fm/downloader/hESdOs4hfGsQcymQ3V15dg/1640505963/d128_cdn/18607 
+./songs.sh -x  "Teddy songs download"
+./songs.sh   "Teddy songs download"
+rm En-Iniya-Thanimaye.mp3 Nanbiye.mp3 
+cler
+man curl
+'The current directory is `pwd`'
+ech echo 'The current directory is `pwd`'
+echo '\''
+echo '
+echo \'
+echo '\'
+echo ''''
+echo "'"
+echo '"'"'
+init 0
+myid=$$
+echo $myid 
+gedit 
+dconf  --hel
+dconf dump /org/gnome/
+cat gnome-conf 
+dconf dump /org/gnome/ > gnome.conf
+diff gnome.conf gnome-conf 
+cat gnome.conf 
+cat mass.html 
+rm mass.html 
+cat mtmp.htm 
+rm mtmp.htm 
+cat links.txt 
+rm links.txt 
+cat tmp.html 
+rm tmp.html 
+cat package.json 
+cat package-lock.json 
+./voiceassistant.sh 
+bash "/home/jaga-matrix/projects/lyrics-scrapper/test.sh"
+./songs.sh "ennavale adi ennavale song download"
+tmp=10
+tmp+1
+((tmp+1)
+((tmp+1))
+echo $tmp
+echo ((tmp+1))
+echo ${((tmp+1))}
+echo "${((tmp+1))}"
+echo "${tmp+1}"
+echo "${(tmp+1)}"
+echo "${$tmp+1}"
+echo "{$tmp+1}"
+echo "((tmp+1)"
+
+./songs.sh -x -d "ennavale adi ennavale masstamilan"
+./voiceassistant.sh 
+./voiceassistant.sh 
+init 0
+s
+cat checkos.sh 
+cat sum_of
+rm sum_of
+mv sum_of.cpp ../../../programming/cp/csfi/
+python3
+init 0
+sudo nethogs
+man apt
+man apt-get
+echo $RESUMe
+echo $RESUME
+printenv 
+printenv   --help l
+printenv   --help 
+printenv  -0
+printenv  
+arr=( 1 2 3)
+arr=( "${arr[@]/#/+}" )
+echo $arr 
+echo ${arr[*]} 
+echo ${arr[@]} 
+arr=( "${arr[@]/#//}" )
+echo ${arr[@]} 
+arr=( "${arr[@]/#/}" )
+echo ${arr[@]} 
+sudo apt update
+apt list --upgradable
+sudo apt upgrade
+sudo apt install aria2 
+aria2c --he
+aria2c --help
+aria2c -s 5 https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.5.1/waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2
+aria2c -x 10 https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.5.1/waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2
+aria2c -x 5 -s 5 -j 5 https://objects.githubusercontent.com/github-production-release-asset-2e65be/25158026/df2a4739-4740-4d20-b229-843e44947267?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20211227%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20211227T060251Z&X-Amz-Expires=300&X-Amz-Signature=d3ed31b9debb34587b3fab8d973213ef33a624ec27e0636ff6b9dd54c7b4316f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=25158026&response-content-disposition=attachment%3B%20filename%3Dwaterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2&response-content-type=application%2Foctet-stream
+aria2c-j 5 -s 5  -x 10 https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.5.1/waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2
+aria2c -j 5 -s 5  -x 10 https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.5.1/waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2
+wget https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.5.1/waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2
+rm waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2 
+dpkg -i cloudflare_warp_2021_12_0_1_amd64_e05c5ac213.deb 
+sudo dpkg -i cloudflare_warp_2021_12_0_1_amd64_e05c5ac213.deb 
+sudo apt install nftables gnupg2
+apt --fix-broken install
+sudo apt --fix-broken install
+sudo dpkg -i cloudflare_warp_2021_12_0_1_amd64_e05c5ac213.deb 
+warp-cli register
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+cat index.html 
 ls -al
-mkdir scripts
-cd scripts/
-wget https://notabug.org/demure/dotfiles/raw/master/config/mpv/scripts/autoload.lua
-mpv
-aliases
-cd
-cat .bash/aliases 
-cat .bash/functions 
-mm s
-clear
-exit
-cd projects/ubuntu_setup/
-cd scripts/
-vim dotfiles.sh 
-./dotfiles.sh 
-vim main.sh
-cat text.sh 
-cd ../
-cd scripts/
-rm text.sh 
-clear
-git status
-git add .
-git commit -m "first commit"
-git config --global user.email "jagadeeshanmsj@gmail.com
-git config --global user.email "jagadeeshanmsj@gmail.com"
-git config --global user.name "ms-jagadeeshan"
-git commit -m "first commit"
-git push
-cd ..
-git clone https://github.com/ms-jagadeeshan/ubuntu_setup.git
-git remote add ubuntu_setup https://github.com/ms-jagadeeshan/ubuntu_setup.git
-git remote add origin https://github.com/ms-jagadeeshan/ubuntu_setup.git
-cd ubuntu_setup/
-git remote add origin https://github.com/ms-jagadeeshan/ubuntu_setup.git
-git push -u origin master
-code --version
-exit
-sudo apt install code
-exit
-vim tmp.sh
+warp-cli status
+warp-cli connect
+cat index.html | pup 'p.title'  
+cat index.html | pup 'p.title a attr{href}'  
+aria2c --hel
+mkdir tmp
+mv ../tmp.txt ./
+aria2c -j 16 -x 16 -i tmp.txt 
+warp-cli connect
+warp-cli statux
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+man yt-dlp 
+warp-cli status
+warp-cli connect
+warp-cli status
+watch 'warp-cli status'
+watch  -n 0.5 'warp-cli status'
 chmod +x tmp.sh 
 ./tmp.sh 
-vim tmp.sh 
 ./tmp.sh 
-rm tmp.sh 
+./tmp.sh 
+./tmp.sh 
+./tmp.sh >/dev/null
+ls -l
+rm *
+mv /home/jaga-matrix/tmp/tmp/*mp4 ./
+mv /home/jaga-matrix/tmp/tmp/*mp4 ./
+aria2c -j 16 -x 16 -i tmp.txt 
+aria2c -j 16 -x 16 -i tmp.txt 
+ls [!(t)]
+ls [!t]
+ls (tmp+1)
+rm d*
+rm -rf i*
+rm ./_ ./_.1
+rm ./_.2 
+rm -rf b*
+rm -rf m*
+rm -rf a*
+rm -rf n*
+rm -rf h*
+rm -rf p*
+yt-dlp -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+yt-dlp -N 6 -c -a tmp.txt 
+yt-dlp -N 6 -c -a tmp.txt 
+yt-dlp -N 6 -c -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+yt-dlp -N 15 -c -a tmp.txt 
+cle
+rm I*
+y
+rm I*
+rm tmp.txt 
+warp-cli connect
+sudo apt install ffmpeg
+ls -sh
+warp-cli connect
+warp-cli status | sed -e '/Suc.*/d '
+warp-cli status | sed -e '/Suc.*/d ; s/Status update: //g'
+warp-cli status | sed -e '/Suc.*/d ; s/Status update: //g' | grep Connected 
+warp-cli disconnect
+warp-cli status | sed -e '/Suc.*/d ; s/Status update: //g' | grep Connected
+echo $?
+ls *mp4
+ls *.mp4
+ls *mp4
+ls *mp4
+ls -sh
+sbs
+ls *mp4
+ls tea*
+ls Tea*
+rm -rf Tea*
+rm -rf New*
+rm -rf how*
+rm -rf Ind*
+python3 -m pip install -U yt-dlp
+yt-dlp -U
+man yt-dlp 
+ls en
+ls enrf/
+rmdir enrf/
+mv \[CourseClub.ME\]\ AppliedAICourse\ -\ Applied\ Machine\ Learning\ Course/ AI-and-ML
+ls -al
+chomd 644 AI-and-ML/
+chmod 644 AI-and-ML/
+ls 
+ls -al
+chmod 665 AI-and-ML/
+ls -al
+mkdir tmp
+ls -l
+rmdir tmp/
+chmod 775 AI-and-ML/
+ls -al
+histg yt-dlp
+yt-dlp --remux-video aac>m4a/mov>mp4/mkv --write-subs -s -N 15   'https://youtu.be/bFSnXNIsK4A'
+yt-dlp --remux-video "aac>m4a/mov>mp4/mkv" --write-subs -s -N 15   'https://youtu.be/bFSnXNIsK4A'
+yt-dlp --remux-video "aac>m4a/mov>mp4/mkv" --write-subs  -N 15   'https://youtu.be/bFSnXNIsK4A'
+yt-dlp --remux-video "aac>m4a/mov>mp4/mkv" --write-subs  -N 100 -c  'https://youtu.be/bFSnXNIsK4A'
+yt-dlp --remux-video "aac>m4a/mov>mp4/mkv" --write-subs  -N 5 -c  'https://youtu.be/bFSnXNIsK4A'
+yt-dlp --remux-video "aac>m4a/mov>mp4/mkv" --write-subs  -N 5 --continue  'https://youtu.be/bFSnXNIsK4A'
+vlc 
+yt-dlp --remux-video "aac>m4a/mov>mp4/mkv" --write-subs  -N 100 --continue  'https://youtu.be/bFSnXNIsK4A'
+open
+open 105\ STL\ Algorithms\ in\ Less\ Than\ an\ Hour\ \[bFSnXNIsK4A\].mkv 
+man open
+open --norun 105\ STL\ Algorithms\ in\ Less\ Than\ an\ Hour\ \[bFSnXNIsK4A\].mkv 
+totem --fullscreen /tmp/tmp.vLecSssSfQ
+man totem
+vlc 105\ STL\ Algorithms\ in\ Less\ Than\ an\ Hour\ \[bFSnXNIsK4A\].mkv 
+cvlc 105\ STL\ Algorithms\ in\ Less\ Than\ an\ Hour\ \[bFSnXNIsK4A\].mkv 
+vlc 105\ STL\ Algorithms\ in\ Less\ Than\ an\ Hour\ \[bFSnXNIsK4A\].mkv 
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli disconnect
+12
+yt-dlp --help 
+nnn
+sudo apt install nnn
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get dist-upgrade 
+sudo apt install nnn
+sudo apt-get dist-upgrade 
+anaconda-navigator
+sudo nethogs
+conda install -c conda-forge jupyterlab
+conda init
+conda install -c conda-forge jupyterlab
+conda install -c conda-forge notebook
+sudo su
+which apt
+echo $PATH
+echo $PATH
+ls -al
+echo $PATH
+ls -a;
+ls -al
+mv .bashrc .bashrcc
+mv .bashrcc .bashrc
+source .bashrc 
+echoo $PATH 
+echo $PATH 
+sudo apt install lolcat
+which atpt
+which apt
+echo $PATH
+cat .bashrc 
+cat .bashrc 
+mkdir /abcd
+bash apt
+bash apt install ffmpeg
+bash at
+bash apt 
+bash apt install ffmpeg
+bash apt install ffmpeg
+bash sudo apt install ffmpeg
+sudo bash apt install ffmpeg
+sudo bash apt install ffmpeg
+sudo bash apt install ffmpeg
+bash apt install ffmpeg
+chmod +x apt
+bash apt install ffmpeg
+func(){ echo 1 is $1 , 2 is $2, 3 is $3} 
+func(){ echo 1 is $1 , 2 is $2, 3 is $3 } 
+func(){ echo "1 is $1 , 2 is $2, 3 is $3" } 
+func(){ echo "1 is $1 , 2 is $2, 3 is $3"; } 
+func sudo apt
+func sudo apt update
+func apt update
+
+func(){ echo "1 is $1 , 2 is $2, 3 is $3"; } 
+makescript func.sh
+chmod +x func.sh 
+sudo ./func.sh apt update
+./func.sh apt update
+sudo ./func.sh apt update
+sudo ./func.sh sudo apt update
+which apt
+apt
+apt install ffmpeg
+/usr/bin/hollywood 
+which apt
+/usr/bin/hollywood 
+hollywood 
+sudo apt install hollywood 
+sudo apt 
+sudo apt update
+sudo apt upgrade
+sudo apt dist-upgrade 
+which apt
+cat apt 
+apt update
+sudo apt update
+sudo apt install hollywood 
+which sudo
+which apt
+hollywood 
+which hollywood 
+sudo apt install hollywood 
+sudo apt install hollywood 
+sudo apt install hollywood 
+touch hello
+chmod +x hello 
+rm hello 
+sudo apt
+sudo $(which apt)
+echo $PATH
+which apt
+apt
+sudo apt
+which apt
+which apt
+sudo apt
+sudo apt
+sudo apt
+apt
+sudo apt
+sudo apt
+apt
+apt
+sudo hello
+sudo apt
+sudo apt
+sudo echo  $(which apt)
+sudo apt
+sudo $(which apt)
+sudo apt install hle
+sudo -E env
+./songs.sh "vennilave vennilave sonng download"
+/usr/bin/hollywood 
+hollywood 
+cmatrix 
+./anaconda-navigator 
+init 3
+printenv 
+printenv  | less
+conda init
+ls -al
+rm -rf anaconda3/
+bash ./Anaconda3-2021.11-Linux-x86_64.sh 
+cat activate 
+bash ./activate 
+conda init
+jupyter notebook
+sudo apt install jupyter-core
+jupyter notebook
+jupyter-lab
+jupyter-lab
+./jupyter-lab
+init 6
+yt-dlp --help
+       sbs
+lsb
+sbs
+df
+df -h
+sbs
+init 6
+init 0
+cat Makefile 
+cat requirements.txt 
+make install 
+ls -al
+cat branches/
+cat config 
+ext
+uptime
+sudo tar -xj -C '/usr/local/bin/' -f waterfox-G4.0.4.en-US.linux-x86_64.tar.bz2 
+mv scheduler/src/json.hpp launch-meet/
+mkdir src
+mv json.hpp src/
+rm -r scheduler/
+y
+rm -r scheduler/
+1ls
+sbs
+sbs
+sudo nethogs
+ls -al;
+which tuxi
+sudo tar -xj -C '/usr/local/bin/' -f waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2 
+wget https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.5.1/waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2
+wget 'https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.5.1/waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2'
+date
+date -U
+date --help 
+date %H
+date -f "%H"
+date --debug
+date --iso-8601
+date --iso-8601="seconds"
+date --iso-8601="ns"
+date --iso-8601="seconds"
+date +10m --iso-8601="seconds"
+date now --iso-8601="seconds"
+date --iso-8601="seconds"
+update_waterfox() { sudo rm -rf /usr/local/bin/waterfox ; wget -qO- $1 | sudo tar -xj -C '/usr/local/bin/' ; }
+update_waterfox https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.5.1/waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2
+update_waterfox 'https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.5.1/waterfox-G4.0.5.1.en-US.linux-x86_64.tar.bz2'
+less application_setup.sh 
+ld
+rm waterfox-G4.0.4.en-US.linux-x86_64.tar.bz2 
+;ls
+less application_setup.sh 
+init 0
+/usr/bin/env python "/home/jaga-matrix/projects/lib/python/test.py"
+pip3 install imagehash
+scrot --help
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+file /home/jaga-matrix/projects/lib/python/image2.png
+cler
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/tempCodeRunnerFile.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+./scrot_extended
+./scrot_extended-dev 
+sudo apt install scrot
+./scrot_extended-dev 
+sudo apt install imagemagick
+./scrot_extended-dev 
+./scrot_extended-dev 
+./scrot_extended-dev 
+./scrot_extended-dev 
+./scrot_extended-dev 
+init 6
+python3 -u "/home/jaga-matrix/projects/lib/python/tempCodeRunnerFile.py"
+python3 -u "/home/jaga-matrix/projects/lib/python/tmp.py"
+cat cookies1.txt 
+rm cookies1.json 
+cat cookies2.txt 
+curl -b cookie1.txt --cookie-jar newcookiefile.txt 'https://drive.google.com'
+cat newcookiefile.txt 
+yt-dlp --cookies=newcookiefile.txt 'https://drive.google.com/file/d/1TELCNsGHF72jLEgPpoM5E8Ax4dXB-bsw/view'
+cat cookies*.txt
+cat cookies*.txt > cookies.txt
+curl -b cookies.txt --cookie-jar newcookiefile.txt 'https://drive.google.com'
+cat newcookiefile.txt 
+yt-dlp --cookies=newcookiefile.txt 'https://drive.google.com/file/d/1TELCNsGHF72jLEgPpoM5E8Ax4dXB-bsw/view'
+gedit cookies.txt 
+curl -b cookies.txt --cookie-jar newcookiefile.txt 'https://drive.google.com'
+yt-dlp --cookies=newcookiefile.txt 'https://drive.google.com/file/d/1TELCNsGHF72jLEgPpoM5E8Ax4dXB-bsw/view'
+gedit cookies.txt 
+curl -b cookies.txt --cookie-jar newcookiefile.txt 'https://drive.google.com'
+yt-dlp --cookies=newcookiefile.txt 'https://drive.google.com/file/d/1TELCNsGHF72jLEgPpoM5E8Ax4dXB-bsw/view'
+cat newcookiefile.txt 
+youtube-dl -e "https://drive.google.com/file/d/1TELCNsGHF72jLEgPpoM5E8Ax4dXB-bsw/view" --print-traffic --cookie newcookiefile.txt 
+sudo apt install youtube-dl
+youtube-dl -e "https://drive.google.com/file/d/1TELCNsGHF72jLEgPpoM5E8Ax4dXB-bsw/view" --print-traffic --cookie newcookiefile.txt 
+youtube-dl -e "https://drive.google.com/file/d/1TELCNsGHF72jLEgPpoM5E8Ax4dXB-bsw/view" --print-traffic --cookie cookies.txt 
+curl -b cookies.txt --cookie-jar newcookiefile.txt 'https://drive.google.com'
+init 0
+dpkg -i teams_1.4.00.7556_amd64.deb 
+sudo dpkg -i teams_1.4.00.7556_amd64.deb 
+sudo apt install libgdk-pixbuf2.0-0 
+sudo apt --fix-broken install
+sudo dpkg -i teams_1.4.00.7556_amd64.deb 
+sudo apt update
+sudo apt-get dist-upgrade 
+reboot
+fklf dlj;fka dsfkld d sdf 
+k
+klj
+kjf
+lkj
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+python3 -u "/home/jaga-matrix/projects/lib/python/test2.py"
+pip installpython3 -u "/home/jaga-matrix/projects/lib/python/test2.py"
+scrot -s
+scrot -l
+scrot -a
+scrot -a 33 33 500 500
+scrot -a 33,33,500,500
+histg mouse
+man scrot
+xdotool getmouselocation --shell
+sudo apt install xdotool
+xdotool getmouselocation --shell
+xdotool getmouselocation 
+xdotool --help
+xdotool getwindowname
+xdotool getwindowname [window=%1]
+xdotool getwindowname [window=%2]
+xdotool --help
+xdotool mouseup
+xdotool mouseup --window 
+xdotool mouseup --window 3
+watch 'xdotool getmouselocation'
+watch -n 0.5 'xdotool getmouselocation'
+mkdir -p 4th_sem/screenshot
+python3 -u "/home/jaga-matrix/projects/lib/python/test2.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/scrot_extended-dev"
+ln -s /home/jaga-matrix/projects/lib/python/scrot_extended-dev /home/jaga-matrix/.local/bin/
+cledar
+watch -n 0.5 'xdotool getmouselocation'
+ps -aux | grep py
+ps -aux | grep scrot
+kill -9 37624
+ps -aux | grep scrot
+kill -9 38740 
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/scrot.py"
+xdotool getmouselocation --shell
+xdotool mousemove 123 13
+xdotool mousemove 123 130
+xdotool mousemove 123 1300
+xdotool mousemove 1230 150
+init 0
+X -rv
+sudo X -rv
+X -rv
+X -title fh
+scrot --autoselect
+scrot --autoselect 1 2 13 12
+scrot --autoselect 1
+scrot --autoselect 2,3,24,23
+xdg-open 2022-01-08-012130_24x23_scrot.png 
+rm 2022-01-08-012130_24x23_scrot.png 
+whatis X
+man X
+man XOrgFoundation
+mcd tmp
+man mcd
+scrot -q 100 
+scrot 
+ls -a
+ls -ash
+ls *
+rm *
+rm "*"
+rm *ng
+scrot -u
+scrot -p
+scrot -pz
+scrot -pzt
+scrot -pz -t 10x10
+;
+scrot -k
+xdg-open 2022-01-08-013347_9194x1053_scrot.png 
+scrot -k
+xdg-open 2022-01-08-013449_11664x1053_scrot.png 
+scrot -k
+scrot 2022-01-08-013535_13348x1053_scrot.png 
+xdg-open 2022-01-08-013535_13348x1053_scrot
+xdg-open 2022-01-08-013535_13348x1053_scrot.png 
+rm *
+scrot -c laf
+file laf 
+xdg-open  laf 
+rm laf 
+scrot --count --delay 10
+xdg-open 2022-01-08-013913_1920x1080_scrot.png 
+rm *
+scrot -bu
+xdg-open 2022-01-08-013944_786x587_scrot.png 
+rm 2022-01-08-013944_786x587_scrot.png 
+scrot -D 1.1
+scrot -D 0.1
+scrot -D 0
+scrot -D [0]
+scrot -D [1]
+scrot -D 1
+scrot -D 1.1
+scrot -D 1
+scrot -D 1.
+scrot -D 0.3
+x
+X
+xinit
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/scrot.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/scrot.py"
+man cp
+man scrot
+man scrot\
+man scrot
+init 0
+1 /usr/bin/env /bin/sh /tmp/Microsoft-MIEngine-Cmd-v5mx03ix.5jm 
+\cd "/home/jaga-matrix/programming/cp/csfi/" && g++ dice_combination.cpp -o dice_combination && "/home/jaga-matrix/programming/cp/csfi/"dice_combination
+brightnessctl
+sudo apt install brightnessctl
+brightnessctl --help
+brightnessctl +10
+brightnessctl set +10
+sudo brightnessctl set +10
+sudo brightnessctl set 10%
+sudo brightnessctl set +10%
+sudo brightnessctl set -10%
+sudo brightnessctl set 10%-
+Problem Name: Minimizing Coins
+Problem Link: https://cses.fi/problemset/task/1634
+Author: Sachin Srivastava (mrsac7)
+*/
+#include<bits/stdc++.h>
+using namespace std;
+template<typename... T>
+void see(T&... args) { ((cin >> args), ...);}
+template<typename... T>
+void put(T&&... args) { ((cout << args << " "), ...);}
+template<typename... T>
+void putl(T&&... args) { ((cout << args << " "), ...); cout<<'\n';}
+#define error(args...) { string _s = #args; replace(_s.begin(), _s.end(), ',', ' '); stringstream _ss(_s); istream_iterator<string> _it(_ss); err(_it, args); }
+void err(istream_iterator<string> it) {}
+template<typename T, typename... Args>
+void err(istream_iterator<string> it, T a, Args... args) {cerr << *it << "=" << a << ", "; err(++it, args...);}
+#define int long long
+#define pb push_back
+#define F first
+#define S second
+#define ll long long
+#define ull unsigned long long
+#define ld long double
+#define pii pair<int,int>
+#define vi vector<int>
+#define vii vector<pii>
+#define vc vector
+#define L cout<<'\n';
+#define E cerr<<'\n';
+#define all(x) x.begin(),x.end()
+#define rep(i,a,b) for (int i=a; i<b; ++i)
+#define rev(i,a,b) for (int i=a; i>b; --i)
+#define IOS ios_base::sync_with_stdio(false);cin.tie(0);cout.tie(0);
+#define setpr(x) cout<<setprecision(x)<<fixed
+#define sz size()
+#define seea(a,x,y) for(int i=x;i<y;i++){cin>>a[i];}
+#define seev(v,n) for(int i=0;i<n;i++){int x; cin>>x; v.push_back(x);}
+#define sees(s,n) for(int i=0;i<n;i++){int x; cin>>x; s.insert(x);}
+const ll inf = INT_MAX;
+const ld ep = 0.0000001;
+const ld pi = acos(-1.0);
+const ll md = 1000000007;
+int dp[1000005];
+void solve(){
+ccat scrot.py 
+cat scrot.py 
+python3 scrot.py 320 138 1113 862
+scrot 
+rm 2022-01-10-090726_1920x1080_scrot.png 
+python3 scrot.py 320 138 1113 862
+scrot --help
+scrot -k\
+scrot -k
+xdg-open 2022-01-10-090939_11228x1053_scrot.png 
+scrot -k -c 1
+rm 2022-01-10-090939_11228x1053_scrot.png 
+xdg-open 1
+rm 1
+scrot -k -c
+xdg-open  2022-01-10-091206_11228x1053_scrot.png 
+rm 2022-01-10-091206_11228x1053_scrot.png 
+scrot --help
+python3 scrot.py 320 138 1113 862
+python3 scrot.py 320 167 1113 862
+X
+X --help
+echo $DISPLAY 
+scrot -d 1
+xdg-open 2022-01-10-092556_1920x1080_scrot.png 
+scrot -d 1.1
+xdg-open 2022-01-10-092556_1920x1080_scrot.png 
+rm  2022-01-10*
+scrot -d :1.1
+scrot -d 1.0
+xdg-open 2022-01-10-092842_1920x1080_scrot.png 
+rm 2022-01-10-092842_1920x1080_scrot.png 
+scrot -s
+xdg-open 2022-01-10-093408_1852x1053_scrot.png 
+xrandr --listmonitors
+python3 scrot.py 320 167 1113 862
+python3 scrot.py 320 167 1113 133
+python3 scrot.py 320 167 1113 833
+python3 scrot.py 320 167 1113 833
+python3 scrot.py 320 167 1113 833
+python3 scrot.py 320 167 1113 833
+watch 'xdotool getmouselocation'
+watch -n 0.5 'xdotool getmouselocation'
+python3 scrot.py coa 322 167 1112 833
+histg pyth
+python3 scrot.py 
+python3 scrot.py probability
+python3 scrot.py probability
+scrot -h
+histg pyth
+histg dbm
+sudo apt-get update
+sudo apt-get install mysql-server
+systemctl status mysql
+mysql_secure_installation 
+sudo su
+sduo mysql_secure_installation
+sudo mysql_secure_installation
+mysql tmp
+sudo mysql tmp
+sudo mysql 
+mysql
+mysql --help
+sudo mysql
+cat /etc/release
+cat /etc/
+cat /etc/*
+cat /etc/*  | grep DI
+cat /etc/os-release 
+uname -a
+lsblk
+sudo apt dist-upgrade 
+sudo apt-get install mysql-workbench-community
+sudo apt-get install mysql-workbench
+sapt-cache search libaio
+apt-cache search libaio
+sudo apt install libaio1
+mysql-workbench 
+sudo mysql-workbench 
+mysql
+usermod -a -G mysql jaga-matrix 
+sudo usermod -a -G mysql jaga-matrix 
+mysql
+user
+users
+groups
+sudo usermod -a -G mysql 
+sudo usermod jaga-matrix -a -G mysql 
+groups
+grupus
+groups
+sudo usermod -aG mysql jaga-matrix 
+groups
+mysql
+sudo mysql
+apt list  --installed 
+apt list  --upgradable 
+sudo mysql-workbench 
+youtube-dl 'https://drive.google.com/file/d/1y2dpD4RLnxHSA2stFzraKSs-Da5GHngc/view?usp=drive_web&authuser=1'
+ls cookie*
+histg jar
+curl -b cookies1.txt --cookie-jar newcookiefile.txt 'https://drive.google.com/file/d/1y2dpD4RLnxHSA2stFzraKSs-Da5GHngc/view?usp=drive_web'
+curl -b cookies1.txt --cookie-jar newcookiefile.txt 'https://drive.google.com/file/d/1y2dpD4RLnxHSA2stFzraKSs-Da5GHngc/view?usp=drive_web'
+curl -b cookies1.txt --cookie-jar newcookiefile.txt 'https://drive.google.com/file/d/1y2dpD4RLnxHSA2stFzraKSs-Da5GHngc/view'
+curl -b cookies1.txt --cookie-jar newcookiefile.txt 'https://drive.google.com'
+youtube-dl --cookies newcookiefile.txt 'https://drive.google.com/file/d/1y2dpD4RLnxHSA2stFzraKSs-Da5GHngc/view'
+man mys
+man mysql
+sudo apt-get purge mysql-server
+sudo apt-get remove mysql-server
+sudo apt autoremove
+sudo apt install mysql-server
+sudo shutdown now
+scrot --help
+watch 'xdotool getmouselocation'
+xdotool search --onlyvisible . behave %@ mouse-enter getmouselocation
+xdotool search --onlyvisible . behave %@ mouse-click getmouselocation
+xdotool search --class xterm behave %@ focus getwindowname getwindowpid
+xterm
+xdotool search --class waterfox behave %@ focus getwindowname getwindowpid
+xdotool search --class waterfox behave %@ focus getwindowname getwindowpid
+xdotool search --class waterfox behave %1 getwindowname getwindowpid
+xdotool search --class waterfox behave %@ mouse-click getwindowname getwindowpid
+xdotool search --class waterfox behave %blur mouse-click getwindowname getwindowpid
+xdotool search --class waterfox behave %@ blur getwindowname getwindowpid
+xdotool getmouselocation
+watch 'xdotool getmouselocation'
+scrot -c 0.33554435
+scrot -D  0.33554435
+scrot -D  0
+scrot -D  1
+echo $DISPLAY 
+scrot -D  :1
+xdg-open 2022-01-11-001602_1920x1080_scrot.png 
+rm 2022-01-11-001602_1920x1080_scrot.png 
+scrot -D  "1.33554435
+scrot -D  :1.33554435
+scrot -D  :1.1
+scrot -D  :1
+scrot -D  :1.1
+scrot -D  :1.0
+xdg-open 2022-01-11-001638_1920x1080_scrot.png 
+rm 2022-01-11-00163*
+scrot -D  :1.1
+scrot -D  :1.2
+scrot -D  :1.4
+scrot -k -c 
+
+xprop 
+xprop | grep 'CLASS'
+xdotool search
+xdotool search --class water
+xdotool search --class waterfox
+xdotool search --hel
+xdotool search --screen 1
+xdotool --screen 1
+xdotool search --class waterfox
+xdotool search --class
+xdotool search --all
+xdotool --help
+xdotool selectwindow
+xdotool search 
+xdotool selectwindow
+scrot -c 33554435
+xdg-open 
+xdg-open 2022-01-11-001732_10958x1105_scrot.png 
+rm 2022-01-11-001732_10958x1105_scrot.png 
+scrot -c 33554435
+scrot -k -c 33554435
+
+xdotool
+xdotool selectwindow --help
+xdotool selectwindow 
+xdotool
+xdotool | cut 
+xdotool | cut --help
+xdotool | cut -f ' '
+xdotool | cut -f 
+xdotool | cut -f a
+xdotool | tr '\n' ' '
+xdotool --help
+xdotool windowmap
+xdotool --version
+cat /usr/bin/xdotool
+man xdotool
+xdotool search --class xterm behave %@ focus getwindowname getwindowpid
+xdotool search  . behave %@ focus getwindowname getwindowpid
+xdotool search  . --behave %@ focus getwindowname getwindowpid
+xdotool search  . behave %1 focus  getwindowname
+xdotool search  . behave %0 focus  getwindowname
+xdotool search  . behave %12 focus  getwindowname
+xdotool search  . behave 56623105 focus  getwindowname
+xdotool search  waterfox behave 56623105 focus  getwindowname
+xdotool search  waterfox behave 1 focus  getwindowname
+xdotool search  waterfox behave %@ focus  getwindowname
+xdotool get_num_desktops 
+xdotool get_desktop
+xdotool getwindowname 
+xdotool getwindowname  window=%3
+xdotool getwindowname  window=%1
+xdotool getwindowname  window=%8
+xdotool getwindowname  window=%9
+xdotool getwindowname  window=%@
+xdotool getwindowname 
+xdotool windowraise %@
+man WINDOW STACK
+complete -p
+complete -F _known_hosts traceroute
+shopt -s extdebug && declare -F _xdotool && shopt -u extdebug
+shopt -s extdebug && declare -F xdotool && shopt -u extdebug
+type _rbenv
+type rbenv
+type xdotool
+type _xdotool
+type tuxi
+type mcd
+type _tuxi
+type _xdotool
+xdotool click 
+xdotool click 1
+xdotool click 4
+xdotool keyup --help
+xdotool keydown --help
+xdotool key --help
+xdotool type --help
+xdotool search .
+xdotool search --onlyvisible . behave %@ mouse-enter getmouselocation
+xdotool search --onlyvisible . 
+xdotool search --onlyvisible . behave %10 mouse-click getmouselocation
+xdotool search --onlyvisible . behave %1 mouse-click getmouselocation
+xdotool search --onlyvisible . 
+xdotool search --onlyvisible . behave %11 mouse-click getmouselocation
+xdotool key alt+w
+xdotool getactivewindow
+getwindowfocus
+getwindowname
+getwindowpid
+getwindowgeometry
+getdisplaygeometry
+getmouselocation
+get_num_desktops
+get_desktop
+get_desktop_for_window
+get_desktop_viewport 
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+nvim
+ls -a
+cat .netrwhist 
+nvim init.vim
+nvim 
+cat init.vim 
+;s
+cat init.vim 
+nvim init.vim 
+mkdir plugged
+nvim init.vim 
+source init.vim 
+mkdir autoload
+wget https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+mv plug.vim autoload/
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+cat plug.vim 
+l;s
+nvim
+cat ginit.vim 
+cat plug.vim 
+cat init.vim 
+nvim init.vim 
+nvim
+cat init.vim i
+cat init.vim 
+nvim 
+cat install.sh 
+ls nvimrc/
+rm -rf nvimrc/
+rm -rf *
+nvim
+nvim 
+which nvim
+cat xdotool 
+xdotool clear
+ls -a xdotool 
+ls -al xdotool 
+rm xdotool 
+sudo rm xdotool 
+cat xdotool 
+mdkir others
+mkdir others
+xdotool key --help
+xdotool keydown --help
+xdotool keyup
+xdotool type --hlp
+xdotool type af
+xdotool type --h
+xdotool mousemove 
+xdotool mousemove_relative  
+xdotool mousemove_relative  -- -20 -15
+xdotool click --help
+xdotool mousedown --help
+xdotool mousedowm --repeat 3 
+xdotool mousedowm 
+xdotool help
+xdotool mousedown
+xdotool mousedown --repeat 3 
+xdotool mouseup
+xdotool getmouselocation 
+xdotool getmouselocation --help
+xdotool getmouselocation --prefix ab
+xdotool getmouselocation --prefix abc
+
+xdotool behave_screen_edge 
+xdotool behave_screen_edge left
+xdotool behave_screen_edge --delay 1000 top-left search --classname Navigator  windowactivate --sync key --delay 250 ctrl+t ctrl+k ctrl+v Return
+xdotool search --help
+xdotool selectwindow 
+xdotool selectwindow --help
+xdotool getwindowpid 
+xdotool search --class waterfox getwindowpid %1
+xdotool search --class waterfox getwindowpid %2
+xdotool search --class waterfox getwindowpid %3
+xdotool search --class waterfox 
+xdotool getwindowpid --help
+xdotool search --class waterfox getwindowpid [window=%1]
+xdotool search --class waterfox getwindowpid %1
+xdotool selectwindow windowsize 
+xdotool set_window --help
+xdotool behave--help
+xdotool behave --help
+xdotool behave blur
+xdotool behave --help
+xdotool behave mouse-enter
+xdotool behave mouse-click
+xdotool behave mouse-click resize
+man xdotool behave
+locate bash
+locate bash | grep completion
+cat python 
+cat grub
+cat add-apt-repository 
+tuxi --clear
+cat grub
+cat add-apt-repository 
+echo $IFS 
+echo $IFS | xxd
+echo $IFS a| xxd
+echo $IFS ab| xxd
+cat add-apt-repository 
+sudo su
+sudo nvim xdotool 
+ls -l xdotool 
+echo xdotool 
+cat xdotool 
+cat xdotool >~/projects/others/xdotool_completion
+sudo su
+ls -l
+cat xdotool_completion 
+cat xdotool_completion | sudo tee /usr/share/bash-completion/completions/xdotool 1>/dev/null
+tail -n _2 xdotool_completion 
+tail -n +2 xdotool_completion 
+mv xdotool_completion xdotool_completion.bash
+mv xdotool_completion.bash xdotool_completion
+tail -n +2 xdotool_completion | sudo tee /usr/share/bash-completion/completions/xdotool 1>/dev/null
+tail -n +2 xdotool_completion | sudo tee /usr/share/bash-completion/completions/xdotool 
+tail -n +2 xdotool_completion | sudo tee /usr/share/bash-completion/completions/xdotool 
+tail -n +2 xdotool_completion | sudo tee /usr/share/bash-completion/completions/xdotool 
+tail -n +2 xdotool_completion | sudo tee /usr/share/bash-completion/completions/xdotool 
+init 0
+xdg-open probablity_2022-01-10_20-19-09.png 
+rm -rf probablity/
+ls --sort=name
+ls 
+ls 0Q
+ls -Q
+ls -Q -1
+
+sudo apt install img2pdf
+ls -Q -1 | xargs img2pdf {} --ouput myout.pdf
+ls -Q -1 | xargs -p img2pdf {} --ouput myout.pdf
+ls -Q -1 | xargs -p img2pdf '{}' --ouput myout.pdf
+xargs --hlecd
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+python3 scrot.py probability
+xdotool key alt+w
+python3 scrot.py probability
+xargs --help
+python3 scrot.py probability
+echo {1..10}
+echo {1..10} | xargs echo
+echo {1..10} | xargs echo -I '{}' ab
+echo {1..10} | xargs -I '{}' ab echo
+echo {1..10} | xargs -I '{}' echo ad
+python3 scrot.py probability
+cat ../useful_commands_linux.txt 
+echo {1..10} | sed 's/$/\ --output\ mydoc.pdf/'
+ls -Q  | sed 's/$/\ --output\ mydoc.pdf/' | xargs -p img2pdf
+ls -Q -1 | sed 's/$/\ --output\ mydoc.pdf/' | xargs -p img2pdf
+ls -Q -1 | sed 's/$/\ --output\ mydoc.pdf/' 
+ls -Q | sed 's/$/\ --output\ mydoc.pdf/' 
+ls -Q -1 | tr '\n' ' ' | sed 's/$/\ --output\ mydoc.pdf/' 
+ls -Q -1 | tr '\n' ' ' | sed 's/$/\ --output\ mydoc.pdf/' | xargs -p img2pdf
+ls -Q -1 | tr '\n' ' ' | sed 's/$/\ --output\ mydoc.pdf/' | xargs  img2pdf
+for file in *png ; do echo $file ; done
+for file in *png ; do convert "$file" -background white -alpha remove -alpha off "$file" ; done
+ls -Q -1 | tr '\n' ' ' | sed 's/$/\ --output\ mydoc.pdf/' | xargs  img2pdf
+for file in *png ; do convert "$file" -background white -alpha remove -alpha off "$file" ; done
+ls -Q -1 | tr '\n' ' ' | sed 's/$/\ --output\ COA.pdf/' | xargs  img2pdf
+for file in *png ; do convert "$file" -background white -alpha remove -alpha off "$file" ; done
+fc --help
+fc -l 
+fc -lr
+fc -lrn
+tail functions 
+source ~/.bashrc 
+remove_alpha 
+type remove_alpha
+ls -r
+remove_alpha1 ()  {      for file in "*.png";     do        echo "convert $file -background white -alpha remove -alpha off $file" ;     done; }
+remove_alpha1
+for file in "*.png";     do        echo "$file" ;     done
+for file in "*png";     do        echo "$file" ;     done
+for file in *png;     do        echo "$file" ;     done
+for file in *.png;     do        echo "$file" ;     done
+for file in *png;     do        echo "$file" ;     done
+for file in *png;     do        echo "$file" ;     done
+for file in *.png;     do        echo "$file" ;     done
+source ~/.bashrc 
+reset
+remove_alpha
+exti
+touch flkdja\ dfa
+for file in *fa ; done echo $file ; done
+for file in *fa ; do echo $file ; done
+for file in *fa ; do ls $file ; done
+for file in "*fa" ; do ls $file ; done
+for file in "*,cpp" ; do ls $file ; done
+for file in "*.cpp" ; do ls $file ; done
+function remove_alpha() {     for file in "$1" ; do ls "$file" ; done; }
+remove_alpha '*.html'
+remove_alpha "*.html"
+ls "*.html"
+ls *.html
+remove_alpha *.html
+remove_alpha *.sh
+remove_alpha '*.sh'
+remove_alpha "*.sh"
+function remove_alpha() {     for file in "$1" ; do echo $1 ; ls "$file" ; done; }
+remove_alpha "*.sh"
+function remove_alpha() {     for file in "$1" ; do echo $1 ; echo "$file" ; done; }
+remove_alpha "*.sh"
+remove_alpha *.sh
+histg for
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" -a 2,3,4,5
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" -a 2,3,4,5 -c dbms
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" -a 2,3,4,5 -c 
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" -a 2,3,4,5 -c 3
+rm *
+make
+rm Bin/*
+make
+cat Makefile 
+less Makefile
+ks
+cat cmake_install.cmake 
+make install/local
+make install/local --no-silent --directory=../lib
+make install/local  --directory=../lib
+scrot -a
+scrot -a ad
+scrot -a ad,s,s,d
+fd
+ls da-f
+terefadf
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --clean
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --clean
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,4
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,4
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,4,s
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,4,s
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,s
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,s
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,s
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,s
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,s
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,s
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 44,4,34,3,3
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a d
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a d
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a d,23,3,3
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a d,23,3,
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a d,23,3
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a d,23,3
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --class=dbms --clean -a 2,2,23,3
+ls -a
+touch dfa fadl ad
+rm -r
+rm -r 
+rm -r ./
+rm -r *
+y
+scrot --help
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --help
+
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --clean
+scrot -v -s
+wget -v -nv
+wget -v -nv https://www.google.comw
+wget --verbose -nv https://www.google.com
+rm index.html
+rm index.html.1 
+wget --help | grep verb
+curl --help | grep ver
+curl --help | grep qui
+curl --help | grep sil
+curl -v -s
+curl -v -s https://www.google.com/
+curl  -s https://www.google.com/
+curl  -s -v https://www.google.com/
+histg for
+ls -Q1 
+histg ls
+ls -Q1 | tr '\n' ' ' | sed 's/$/\ --output\ dbms.pdf/' | xargs img2pdf
+apt install libopencv-dev libfftw3-dev cmake
+sudo apt install libopencv-dev libfftw3-dev cmake
+cmake .
+cat Makefile
+cat Makefile2
+cat Makefile2 | less
+make
+wget --help
+wget --help | grep verbo
+curl --help | grep verbo
+xdotool set_window --name blank --role main --classname bash.name --class bash 
+xdotool getactivewindow 
+ls -a
+ls -a .sc
+ls -a .sc*
+scrot --version
+scrot --help --version
+scrot --version --help
+man xdotool 
+mkdir lib
+python3 scrot.py coa
+scrot -a 0,0,1000,10000
+python3 scrot.py coa
+xdotool search --onlyvisible . behave %@ mouse-enter getmouselocation
+xdotool search --onlyvisible . behave %@ leave getmouselocation
+xdotool search --onlyvisible . behave %@ mouse-leave getmouselocation
+scrot --help
+man xdotool
+wmctrl
+sudo apt install wmctrl
+wmctrl -l
+wmctrl -h
+sudo apt install wmctrl
+wmctrl -l
+wmctrl -la
+xdotool search --classname  waterfox
+xdotool search --onlyvisible --classname  waterfox
+scrot -k -c 31492465
+xdg-open 2022-01-10-093408_1852x1053_scrot.png 
+rm 2022*
+scrot -k -c 31492465
+xdg-open 2022*
+xdotool search --onlyvisible --classname  waterfox
+scrot -k -c 31492465
+xdg-open 2022*
+scrot -k -c 31492465
+xdg-open 31492465
+rm 31492465*
+scrot -k -c 31492465
+xdg-open 31492465 
+rm 31492465 
+xdotool search --name "Mozilla Firefox" | head -1
+xdotool search --name "waterfox" | head -1
+xdotool windowactivate 31457281
+xdotool search --onlyvisible --name "waterfox" | head -1
+xdotool windowactivate 31492465
+xdotool windowraise 31492465
+xdotool windowclose --window 
+xdotool 
+xdotool search --onlyvisible --name "waterfox" windowclose %1
+xdotool type --help
+xdotool search --onlyvisible --name "waterfox" | head -1
+xdotool windowclose 31457283
+ps -aux | grep fire
+ps -aux | grep water
+kill -9 46501
+ps -aux | grep water
+xdotool search --onlyvisible --name "waterfox" | head -1
+xdotool windowmap 31457283
+xdotool windowminimize 31457283
+xdotool windowactivate 31457283
+xdotool getwindowname 31457283
+scrot --help
+scrot -k -c 31457283
+xdg-open  31457283 
+rm 31457283 
+xwininfo
+xwininfo -id import
+xwininfo -id 31457283
+which import
+man import 
+import -window 31457283 -type png
+import -window 31457283
+import -window 31457283 -type png image.png
+import -window 31457283 image.png
+xdg-open image.png 
+import -window 31457283 image.png
+xdg-open image.png 
+import -window 31457283 image.png
+xdg-open image.png 
+while i in {1..100} ; do import -window 31457283 image${i}.png ; done 
+while i in {1..100} ; do import -window 31457283 image${i}.png ; sleep 3; done 
+while True ; do import -window 31457283 image${i}.png ; sleep 3; done 
+while true ; do import -window 31457283 image${i}.png ; sleep 3; done 
+xdotool search --onlyvisible --name "waterfox" 
+xdotool get_desktop
+xdotool type
+import -type
+import -type png
+import -
+import -window 31457283 -verbose image.png
+import -window 31457283 -verbose -crop 2 image.png
+rm image*
+rm -f image*
+import -window 31457283 -verbose -trim 13 image.png
+import -window 31457283 -verbose -crop 500 image.png
+import -window 31457283 -verbose -crop 500x400 image.png
+import -window 31457283 -verbose -geometry 1485x833+135+167 image.png
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+scrot --help
+scrot --autoselect
+scrot --autoselect ax
+xdotool search --onlyvisible --name waterfox
+watch  -n 1 'xdotool getmouselocation'
+man import
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+bluetoothctl
+init 0
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+xdotool windowkill 29360279
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py"
+xdotool search --onlyvisible --name waterfox
+xdotool search --shell --onlyvisible --name waterfox 
+import -window 29360244  -verbose -crop 1300x700+15+189 /home/jaga-matrix/projects/lib/python/image.png
+import -window 29360244  -verbose  /home/jaga-matrix/projects/lib/python/image.png
+import -window 29360131  -verbose  /home/jaga-matrix/projects/lib/python/image.png
+xdotool search --shell --onlyvisible --name waterfox 
+xdotool search --pid --onlyvisible --name waterfox 
+xdotool search --titile --onlyvisible --name waterfox 
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --two-points 15,72,1669,998
+/bin/python3
+tput setaf 1 && echo hello
+tput setaf 15 && echo hello
+for i in {1..100} ; do tput setaf 15 && echo hello $i ; done
+for i in {1..100} ; do tput setaf $i && echo hello $i ; done
+man tput 
+tput set --help
+tput bold |xxd
+tput setaf 15 && tput bold && echo hello
+tput setaf 15 |xxd
+tput setaf 1 |xxd
+echo hello |xxd
+tput setaf 1 |xxd
+tput setaf 7 |xxd
+tput setaf 7 && tput unset bold && echo hello
+tput reset | xxd
+cat /etc/terminfo/
+cat /etc/terminfo
+cat Re
+cat README 
+echo $}
+echo $_
+cat /lib/terminfo/
+tree
+terminfo
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --help
+ls --help
+man ls
+tree --help
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --help
+clar
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" -c tmpsub 
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" -c tmpsub --verbose
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" -c tmpsub 
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" -c tmpsub -v
+/usr/bin/env python3 "/home/jaga-matrix/projects/lib/python/test.py" --clean
+watch -n 'xdotool getmouselocation'
+watch -n 1 'xdotool getmouselocation'
+ls -a
+/usr/bin/env python3 "/home/jaga-matrix/projects/scrot_extended/scrot_extended"
+cd tmp/
+mkdir bin
+http google.com
+sudo apt install httpie
+http therickroll.com
+curl -sL https://therickroll.com
+curl -L https://therickroll.com
+vim tmp.cpp
+g++ tmp.cpp 
+./a.out 
+To elaborate a bit on previous answers and comments, the ability to capture a screenshot of a non active window (as in fully or partially hidden) seems to depend on the window manager.
+Using the following (already given) command :
+import -window <windowid> image.png
+or
+xwd -id <windowid> | convert xwd:- image.png
+(the - of convert is for using standard input from the pipe, xwd: tells the format of the input) one seems to be able under Enlightenment (e17, tested with Fedora 19) to capture a screenshot of :
+I checked with Openbox (same configuration) and KDE (with an old Scientific Linux 4.8 and latest version of ImageMagick (yes, incredibly it compiled…)) and in both cases screenshots show only what is on top of the display layers — that is, only what is already visible on screen.
+vim projects/ubuntu_setup-testing/dotfiles/bash_history 
+wc $_
+wc -l $_ 
+echo {1..10)a
+echo {1..10}a
+echo {1..10}a[a,b]
+echo {1..10}a(a,b)
+echo {1..10}a{a,b}
+echo a{a,b}
+cd tmp/tmp/
+touch {1..1000}
+rm 1*
+l
+rm -f 1*
+type rm
+wc < fifo 
+ls | echo
+ls | 
+ls 
+echo tmp | wc 
+mkfifo fifo
+ls -l
+echo tmp > fifo
+cd tmp/
+rm -f *
+rmdir bin
+rm -f *
+clear
+mkdir -m a=rwx
+mkdir -m a=rwx samplefolder
+ls -al
+mkdir folder2
+ls -l
+mkdir -m u=rwx folder3
+ls -l
+mkdir -m 666 folder4
+ls -l
+find / -type b 
+sudo find / -type b 
+sudo find / -type c
+clear
+ls --help
+info '(coreutils) ls invocation'
+cd
+cd projects/ubuntu_setup-testing/dotfiles/
+vim bashrc 
+cd bash/
+vim export 
+vim bash_profile 
+cd
+cd -
+cat *
+cat * | grep way
+printenv
+printenv | grep way
 cd ../
-code ./
+cat bashrc 
+cd bash/
+cat aliases 
+cat prompt 
+cd ../
+mv /etc/skel/.bashrc ~/
+cp /etc/skel/.bashrc ~/
+sudo apt install kdenlive
+man mkdir
+echo ~
+cd tmp/tmp/
 cd ..
-git clone https://github.com/ms-jagadeeshan/ubuntu_setup.git
-git push -u origin master
+chroot tmp/
+sudo chroot tmp/
+sudo chroot ./tmp/
+sudo mount /bin ./tmp/bin
+fakechroot
+sudo fakechroot
+sudo apt-get intall fakechroot
+sudo apt-get install fakechroot
+clear
+fakechroot  fakeroot chroot  ./tmp /bin/bash
+fakechroot  fakeroot chroot  ./tmp bash
+clear
+rm a.out 
+cat tmp.ods 
+clear
+cat flkdja\ dfa 
+rm flkdja\ dfa 
+rm fadjklfad@jakf.con 
+cat demo_linux.cpp 
+rm demo_linux.cpp 
+rm fadjklfad@jakf.con 
+rm hahlafakld@gmail.com 
+cat ccommon-words 
+clear
+rm flkdja\ dfa afjlaadfa@gmail.com 
+cat poco 
+rm poco 
+cat tmp.cpp 
+cat script.sh 
+g++ tmp.cpp -o everything_is_file
+strace ./everything_is_file 
+sudo apt install obs-studio 
+cd
+cat .bashrc 
+ls -al .bashrc 
+\
+hello
+clear
+ps -aux | grep everything
+cd /proc/133087
+cd fd
+cat 3
+ls -a
+ls -l
+cat /dev/pts/0
+/dev/pts/0 
+read /dev/pts/0 
+echo hello > /dev/pts/0 
+tty
+cd /dev/pts/
+ls -l
+ls -l /dev/stdout 
+ls -l /proc/self
+ps
+ls -l /proc/self
+ls -l /dev/stdout 
+clear
+ps
+tty
+ls -l /dev/pts/1
+ls -l /dev/pts/
+echo hello > /dev/pts/2
+cd
+tar -C $HOME -xzf NoiseTorch_x64.tgz
+sudo setcap 'CAP_SYS_RESOURCE=+ep' ~/.local/bin/noisetorch
+watch -n 1 'xdotool getmouselocation' 
+history 
+history --help
+qls
+exit
+netstat -r
+sudo apt install net-tools
+netstat -r
+netstat 0i
+netstat -n
+netstat -r
+man netstat
+route 0n
+route -n
+ls -al .bas
+ls -al .bas*
+vim /home/jaga-matrix/projects/ubuntu_setup-testing/dotfiles/bash_history
+ln -sf /home/jaga-matrix/projects/ubuntu_setup-testing/dotfiles/bashrc ~/.bashrc 
+exit
+printenv | grep way
+unset QT_QPA_PLATFORM
+printenv | grep way
+obs
+exit
+history 
+exit
+cat .bash
+cd .b
+cd .bash
+cd
+cd .bash
+cat * | less
+clear
+cd "/home/jaga-matrix/projects/Word-guessing-game/" && g++ wordguessinggame.cpp -o wordguessinggame && "/home/jaga-matrix/projects/Word-guessing-game/"wordguessinggame
+sudo su
+exit
+dpkg -i imager_1.6.2_amd64.deb 
+sudo dpkg -i imager_1.6.2_amd64.deb 
+rpi-imager 
+printenv | grep QT
+vim .bashrc.local
+aria2c -s 16 -j 16 -n 16 https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf.zip
+aria2c -s 16 -j 16  'https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf.zip'
+aria2c -s 16 -x 16 -c  -j 16  'https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf.zip'
+sudo mount /dev/mmcblk0 /mnt/
+sudo fdisk /dev/mmcblk0 
+sudo fdisk /dev/mmcblk /mnt 
+sudo mount  /dev/mmcblk /mnt
+sudo mount  /dev/mmcblk0 /mnt
+printenv | grep QT
+rpi-imager 
+ps -aux | grep imager
+rpi-imager 
+aria2c --hel
+aria2c --hel | grep "^ -"
+sudo apt install rpi-imager
+rpi-imager 
+systemctl status systemd-networkd
+ping pi@raspberrypi.local
+ssh pi@raspberry.local
+ssh pi@raspberrypi.local
+ssh pi@raspberry.local
+ssh pi@raspberrypi.local
+ping pi@raspberry.local
+ssh pi@raspberrypi.local
+ping pi@raspberry.local
+hostname
+user
+users
+ssh pi@raspberrypi.local
+clear
+owd
+pwd
+ssh pi@raspberrypi.local
+exit
+ssh -v
+ssh --version
+groups
+sudo apt-get install openssh-server 
+hostname -I
+wpa_cli 
+sudo wpa_cli 
+cler
+wpa_supplicant --hel
+cd /etc/wpa_supplicant/
+cat action_wpa.sh 
+cat functions.sh 
+ssh pi@raspberrypi.local
+curl -L http://192.168.0.1
+curl -L http://192.168.1.1
+man curl
+curl --hel
+curl --help all
+curl --help all | less
+vim tmp.html
+xdg-open tmp
+xdg-open tmp.html 
+hostname -I
+last
+clear
+ping -c 3 pi@raspberrypi.local
+echo
+for i in {1..1000} ; do echo $i && sleep 1 ; done
+for i in {1..10000} ; do echo $i && sleep 1 ; done
+cd /etc/systemd/
+cat user
+cat user.conf 
+clear
+cd system/
+cat default.target.wants/
+cat default.target.wants/e2scrub_reap.service 
+clear
+lls
+cd
+cd projects/scrot_extended/
+head scrot_extended 
+ps -aux | grep wpa
+cat /run/wpa_supplicant/
+cd /run/
+cd wpa_supplicant/
+sudo cd wpa_supplicant/
+sudo su
+wpa_passphrase poco Jaga@123
+ssh -XfC -c blowfish pi@raspberrypi.local startx
+ssh -XfC pi@raspberrypi.local startx
+ps 
+ssh -XC pi@raspberrypi.local startx
+ssh -X pi@raspberrypi.local
+exit
+apt-get --help
+ssh pi@raspberrypi.local
+exit
+ifconfig
+man rfkill
+sudo apt install arp-scan
+sudo arp-scan --interface eth0 
+sudo arp-scan --interface enx000e09876640
+sudo arp-scan --interface enx000e09876640 --localnet
+rc-update show
+apt-get --help
+mcd nmcli
+sudo apt-get download network-manager
+apt-get download network-manager
+apt-get --help
+apt-get source network-manager
+vim /etc/apt/sources.list
+sudo vim /etc/apt/sources.list
+apt-get source network-manager
+sudo apt update
+apt-get source network-manager
+curl --help all
+curl --help all | less
+curl -M
+curl --help all | less
+man rfkill
+ssh pi@raspberrypi.local
+ssh pi@raspberrypi.local
+watch -n 10 'ssh pi@raspberrypi.local'
+ssh pi@raspberrypi.local
+clear
+ssh pi@raspberrypi.local
+cd nmcli/network-manager-1.32.12/
+./configure 
+sudo apt-get upgrade 
+clear
+./configure 
+make check
+make
+make 
+cat Makefile.examples 
+clear
+./configure CC="gcc -arch i386 -arch x86_64 -arch ppc -arch ppc64"                  CXX="g++ -arch i386 -arch x86_64 -arch ppc -arch ppc64"                  CPP="gcc -E" CXXCPP="g++ -E"
+./configure CC="gcc -arch i386"
 cd ../
+rm -rf network-manager
+rm -rf network-manager-1.32.12/
+sbs
+ls -al
+ls -alh
+rm *
+clear
+$ssh
+ssh$
+ssh pi@raspberrypi.local
+exit
+rpi-imager 
+exit
+ssh pi@raspberrypi.local
+init 0
+curl -L https://1.1.1.1/
+curl --insecure -L https://1.1.1.1/
+curl --insecure -L -X POST -d '{ "username": "cs20b1013" , "password": "3574" }' https://1.1.1.1/
+curl --insecure -L  -d '{ "username": "cs20b1013" , "password": "3574" }' https://1.1.1.1/
+curl --insecure -L  -d  https://1.1.1.1/
+curl --insecure -L    https://1.1.1.1/
+cd projects/
+cd leetcode
+cat tmp.py 
+cat forti.py 
+python3 forti.py 
+curl  https://1.1.1.1/
+curl --insecure  https://1.1.1.1/
+clear
+curl --insecure -L  https://1.1.1.1/
+for i in {1..1000} ; do echo $i && sleep 1 ; done
+apt-get download sudo apt-get install libncurses-dev
+apt-get download  libncurses-dev
+sudo apt install libncurses-dev
+cd
+sha256sum lynx2.8.9rel.1.tar.bz2 
+sudo apt-get install lynx
+lynx www.google.com
+wget https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.bz2
+man dpkg
+date
+date --help
+date
+sleep 100
+jobs
+sleep 100
+jobs
+apt-get build-dep lynx
+sudo apt-get build-dep lynx
+pls
+mkdir files
+cd files/
+apt-cache depends lynx
+sudo apt-get build-dep --download-only lynx:armhf
+apt list --upgradable 
+sudo apt list --upgradable 
+clear
+blkid
+blkid | awk -F\" '/swap/ {print $2}'
+blkid | awk -F\" '/swap/ {print $1}'
+blkid | awk -F\" '/swap/ {print $3}'
+blkid | awk -F\" '/swap/ {print $4}'
+blkid | awk -F\" '{print $4}'
+blkid | awk -F\" '{print $2}'
+blkid | awk -F\" '/swap/{print $2}'
+blkid | awk -F\" '/swap/ {print $2}'
+cd /etc/initramfs-tools/conf.d/
+printf "RESUME=UUID=$(blkid | awk -F\" '/swap/ {print $2}')\n" | sudo tee /etc/initramfs-tools/conf.d/resume
+cat resume 
+sudo apt-get dist-upgrade 
+sudo apt-get upgrade 
+clear
+ssh pi@raspberrypi.local 
+ssh pi@raspberrypi.local
+histg ssh
+ssh pi@raspberrypi.local
+sudo apt-get update
+sudo apt-get upgrade 
+apt-get upgrade 
+apt-cache hello
+apt-cache 
+apt list
+xdg-open https:/1.1.1.1/
+ssh pi@raspberrypi.local
+uname 
+uname -a
+uname 0m
+uname -m
+uname -l
+uname -h
+uname ---he
+uname ---help
+uname --help
+uname -s
+uname -n
+uname -r
+uname -v
+uname -i
+uname -p
+uname -m
+uname -o
+uname -a
+cclear
+clear
+tail /var/log/messages 
+tail /var/log/syslog
+man fsck
+sudo fsck /dev/mmcblk0p2
+df -h
+sudo su
+exit
+tree 
+clea
+vim tmp1.sh 
+clear
+cd .bash
+exit
+cd projects/
+cd lyrics-scrapper/
+cat songs.sh 
+cat test.sh 
+cat sample.sh 
+./songs.sh "thalli pogathey"
+./songs.sh "thalli pogathey masstamilan"
+cd tmp/
+touch {1..100}.png
+cd ..
+cd
+lls
+lsblk
+sudo nautilus
+fdisk -l
+sudo fdisk -l
+fdisk /dev/mmcblk0
+sudo fdisk /dev/mmcblk0
+mkfs.vfat /dev/mmcblk0p1
+sudo mkfs.vfat /dev/mmcblk0p1
+sudo su
+exi
+exit
+man sync 
+sudo su
+sudo sync
+ps -aux | grep sync
+kill 59520
+sudo kill 59520
+ps -aux | grep sync
+sudo kill -9 59520
+ps -aux | grep sync
+sudo kill -9 59520
+ps -aux | grep sync
+man kill
+kill -9 59520
+sudo kill -9 59520
+kill -9 59520
+ps -aux | grep sync
+reboot
+ps -aux | grep sync
+fdisk /dev/mmcblk0
+sudo su
+sudo su
+init 0
+lynx https://1.1.1.1/
+clear
+ext
+sud su
+exit
+badblocks 
+man badblocks 
+man e2fsck
+git pull
 git status
-git add .
-git commit -m "dotfiles and ubuntu setup"
-git push
+git pull
+clear
+./scrot_extended --select-window --help
+./scrot_extended --class
+./scrot_extended --two-points
+cat scrot_extended 
+./scrot_extended --select-window
+./scrot_extended --select-window abc
+./scrot_extended --select-window=bc
+./scrot_extended --select-window
+./scrot_extended --select-window=bc
+./scrot_extended --select-window
+./scrot_extended --delay 100
+./scrot_extended --select-window
+./scrot_extended --select-window ab
+./scrot_extended select-window ab
+./scrot_extended select-window=ab
+./scrot_extended --delay
+./scrot_extended --delay a
+./scrot_extended --delay e
+./scrot_extended --delay 3
+./scrot_extended --delay 3 --select-window
+./scrot_extended --delay 3 --select-window ab
+./scrot_extended --delay 3 --select-window 
+./scrot_extended --delay 3 --select-window dfa
+./scrot_extended --delay 3 --select-window 
+git branch 
+git checkout dev
+git branch dev
+git checkout dev
+git checkout main
+git checkout dev
+xdotool  getactivewindow windowminimize
+xdotool getwindowfocus 
+xdotool  getactivewindow 
+xdotool selectwindow windowminimize
+cd /etc/ssh
+cat ssh_config
+cat sshd_config
+vim ssh_config
+cd ssh_config.d/
+lls
+cd ../sshd_config.d/
+sudo su
+gnome-boxes
+sudo apt-get install gnome-boxes
+cd
+cd projects/scrot_extended/
+./scrot_extended --help
+xdotool windowraise 
+xdotool selectwindow 
+xdotool windowraise 39845891
+xdotool windowraise 39845891 && xdotool windowminimize %
+xdotool windowraise 39845891 && xdotool windowminimize %1
+clear
+sudo su
+ext
+exit
+arp -a
+echo 172.16.16.{1..254}|xargs -n1 -P0 ping -c1|grep "bytes from"
+echo 172.16.{1..254}.{1..254}|xargs -n1 -P0 ping -c1|grep "bytes from"
+nmap alarm@alarm.local
+sudo apt-get install nmap
+sudo apt-get install fuck
+sudo apt install python3-dev python3-pip python3-setuptools
+pip3 install thefuck --user
+apt-get install vim
+apt-get install neovim
+fuck
+ls -al 
+fuck
+cat .bashrc
+ls -al
+clear
+apt-get install neovim
+fuck
+source ~/.bashrc
+apt-get install neovim
+source ~/.bashrc
+apt-get install neovim
+sudo apt-get install neovim
+clea
+clear
+extit
+fuck]
+fuck
+ifconfig
+echo 172.16.{1..254}.{1..254} | xargs -n1 -P2 nmap -p 80
+echo 172.16.{1..254}.{1..254} | xargs -n1 -P0 nmap -p 80
+man xargs
+histg echo
+echo 172.16.{1..254}.{1..254}|xargs -n1 -P0 ping -c1|grep "bytes from"
+echo 172.16.{1..254}.{1..254}|xargs -n1 -P0 ping -c1|grep "bytes from" | awk '{ print $4 }' | tee ping.txt
+echo 172.16.{1..254}.{1..254}|xargs -n1 -P0 ping -c1|grep "bytes from" | awk '{ print $4 }' 
+echo 172.16.{1..254}.{1..254}|xargs -n1 -P0 ping -c1|grep "bytes from" | awk '{ print $1 }' 
+echo 172.16.{1..254}.{1..254}|xargs -n1 -P0 ping -c1|grep "bytes from" |
+echo 172.16.{1..254}.{1..254}|xargs -n1 -P0 ping -c1|grep "bytes from" > ping.txt
+head ping.txt 
+head ping.txt | awk '{ print $4 }'
+head ping.txt | awk '{ print $4 }' | sed 's/://g'
+cat ping.txt | awk '{ print $4 }' | sed 's/://g' 
+mkfifo myfifo
+cat ping.txt | awk '{ print $4 }' | sed 's/://g'  >myfifo 
+cat ping.txt 
+nmap -p 22 172.16.31.86
+nmap -p 80 172.16.31.86
+nmap -p 443 172.16.31.86
+arp -a
+nmap -p 80 eval "$(thefuck --alias)"
+nmap -p 80 10.42.0.219
+nmap -p 22 10.42.0.219
+ip addr
+nmap -p 22 172.16.16.1-254/16
+nmap -p 22 172.16.16.1-254
+ssh alarm@172.16.16.4
+ssh alarm@172.16.16.23
+ssh alarm@172.16.16.252
+ssh alarm@172.16.16.225
+ssh alarm@172.16.16.188
+ssh alarm@172.16.16.119
+clear
+sudo su
+wxit
+exit
+las
+last
+exit
+cd /etc
+cat resolv.conf 
+ls -l
+cat resolv.conf 
+sudo apt install resolvconf
+cd /etc/resolvconf/resolv.conf.d/
+cat head 
+sudo systemctl enable --now resolvconf.service
+ls 
+ls -al
+sudo systemctl start --now resolvconf.service
+sudo vim head 
+cat base 
+cat tail 
+sudo resolvconf -u
+cd ../
+cat resolv.conf 
+exit
+cd /etcc
+cat /etc/netconfig 
+cat /etc/network
+cat /etc/networks 
+arp -na | grep -i "b8:27:eb"
+sudo arp -na | grep -i "b8:27:eb"
+arp -na | grep -i "dc:a6:32"
+ip addr
+route -n
+iftop
+sudo apt install iftop
+sudo iftop -p
+exit
+rpi-imager 
+cat < myfifo > ping.txt
+rm myfifo 
+ssh alarm@alarm.local
+ssh alarm@alarmpi.local
+sudo nmap -sn 172.16.16.*
+sudo nmap -p 22 -sn 172.16.16.*
+sudo nmap  -sn 172.16.*.*
+sudo nmap  -sn 172.16.16.*
+ssh alarm@172.16.16.25
+ssh alarm@alarm.local
+sudo su
+exit
+ip addr
+arp -na
+arp -na > ping.txt 
+arp -na | grep -i "b8:27:eb"
+arp -na | grep -i "dc:a6:32"
+arp -na | grep -i "b8:27:eb"
+arp -na | grep -i "dc:a6:32"
+ssh pi@raspberrypi.local
+arp -na | grep -i "dc:a6:32"
+arp -na | grep -i "b8:27:eb"
+ssh pi@raspberrypi.local
+rpi-imager 
+rm *
+histg
+histg yt
+youtube-dl --help | less
+cd
+pwd
+cd .config/
+cd yt-dlp
+mcd yt-dlp
+vim config
+man yt-dlp 
+ssh pi@raspberrypi.local
+arp -na | grep -i "b8:27:eb"
+arp -na | grep -i "dc:a6:32"
+sudo apt install net-tools
+ssh pi@raspberrypi.local
+ssh pi@raspberry.local
+ssh pi@raspberrypi.local
+rpi-imager 
+cd Downloads/
+aria2c -x 15 -c 'https://downloads.raspberrypi.org/raspios_full_armhf/images/raspios_full_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf-full.zip'
+extract 2021-10-30-raspios-bullseye-armhf-full.zip 
+aria2c -x 15 -c 'https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf.zip'
+rm 2021-10-30-raspios-bullseye-armhf.zip*
+clear
+aria2c -x 15 -c 'https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf-lite.zip
+aria2c -x 15 -c 'https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-11-08/2021-10-30-raspios-bullseye-armhf-lite.zip'
+rm cook*
+gedit cookie.txt
+curl -b cookie.txt --cookie-jar newcookiefile.txt 'https://drive.google.com'
+cat newcookiefile.txt 
+cear
+clear
+youtube-dl --cookies=newcookiefile.txt 'https://drive.google.com/file/d/1y2dpD4RLnxHSA2stFzraKSs-Da5GHngc/view?usp=sharing'
+rm vuj-ccot-cxz\ \(2022-01-09\ at\ 23_38\ GMT-8\)-1y2dpD4RLnxHSA2stFzraKSs-Da5GHngc.mp4.part 
+clear
+cd college/4th_sem/
+mkdir lectures
+cd lectures/
+mcd coa
+yt-dlp --cookies-from-browser 
+yt-dlp --help
+yt-dlp --help | less
+yt-dlp -f 'bv*+ba'  -c -N 15  --cookies ~/newcookiefile.txt 'https://drive.google.com/file/d/15LKYU00VaRoEVMLV2jzDat__fncwKEoo/view?usp=drive_web&authuser=0'
+yt-dlp -c -N 15  --cookies ~/newcookiefile.txt 'https://drive.google.com/file/d/15LKYU00VaRoEVMLV2jzDat__fncwKEoo/view?usp=drive_web&authuser=0'
+yt-dlp --verbose  -c -N 15  --cookies ~/newcookiefile.txt 'https://drive.google.com/file/d/15LKYU00VaRoEVMLV2jzDat__fncwKEoo/view?usp=drive_web&authuser=0'
+youtube-dl --verbose  -c  --cookies ~/newcookiefile.txt 'https://drive.google.com/file/d/15LKYU00VaRoEVMLV2jzDat__fncwKEoo/view?usp=drive_web&authuser=0'
+yt-dlp --verbose  -c -N 15  --cookies ~/newcookiefile.txt 'https://drive.google.com/file/d/15LKYU00VaRoEVMLV2jzDat__fncwKEoo/view'
+youtube-dl --verbose  -c  --external-downloader aria2c --external-downloader-args '-x 15 -c' --cookies ~/newcookiefile.txt 'https://drive.google.com/file/d/15LKYU00VaRoEVMLV2jzDat__fncwKEoo/view'
+rpi-imager 
+clear
+sudo apt  install slmap
+sudo apt  install sqlmap
+arp -n
+clear
+arp -n
+arp -na | grep -i "b8:27:eb"
+arp -na | grep -i "dc:a6:32"
+ssh pi@raspberrypi.local
+rpi-imager 
+arp -na | grep -i "b8:27:eb"
+ssh pi@raspberrypi.local
+arp -na
+ssh pi@raspberrypi.local
+arp -na
+whoami
+date
+sudo apt-get install pi-bluetooth
+sudo apt-get install bluetooth bluez blueman
+sudo apt-get dist-upgrade
+sudo apt-get update
+exit
+cd Downloads/
+dpkg -i cloudflare_warp_2021_8_1_1_amd64_7c41aefd34.deb 
+sudo dpkg -i cloudflare_warp_2021_8_1_1_amd64_7c41aefd34.deb 
+warp-cli register
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+warp-cli status
+warp-cli connect
+ssh pii@raspberrypi.local
+ssh pi@raspberrypi.local
+cd .ssh
+cd
+cd .ssh/
+ll
+cat known_hosts 
+rm known_hosts 
+cd
+ssh pi@raspberrypi.local
+lsusb
+sudo -Es
+exit
+./scrot_extended -h
+./scrot_extended -a 23,30,33,13
+./scrot_extended -a 23,30,33,13 -a
+./scrot_extended -h
+./scrot_extended -a 23,30,33,13 -d
+./scrot_extended -a 23,30,33,13 -h
+arp -na | grep -i "b8:27:eb"
+ssh pi@raspberrypi.local
+ssh leon@EventHorizon
+ssh leon@EventHorizon.local
+ssh 
+ssh pi@raspberrypi.local
+nmap 172.16.9.15
+nmap --help
+nmap  -s 171.16.0.0 172.16.9.15
+nmap  -S 171.16.0.0 172.16.9.15
+nmap  -sS 171.16.0.0 172.16.9.15
+sudo nmap  -sS 171.16.0.0 172.16.9.15
+sudo nmap  -sS 171.16.0.0 172.16.15.237
+ssh pi@raspberrypi.local
+exit
+sudo nmap 172.16.31.219
+sudo nmap 172.16.31.1-254
+sudo nmap --open 172.16.31.1-254
+arp -an
+clear
+arp 0na
+arp -na
+sudo apt install speedtest-cli
+nmcli
+./scrot_extended --version
+./scrot_extended --h
+./scrot_extended --version
+./scrot_extended --h
+./scrot_extended --version
+./scrot_extended -h
+./scrot_extended --version
+./scrot_extended --help
+./scrot_extended --delay
+./scrot_extended --delay 3
+./scrot_extended
+./scrot_extended --class 2,3,4,4
+./scrot_extended --class 2,3,4,
+./scrot_extended -a 2,3,4,
+./scrot_extended -a 2,3,4,3
+./scrot_extended -t 1,10,11,20
+wget 'https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js
+wget 'https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.5/dist/html2canvas.min.js'
+vim tmp.html
+gtk-launch waterfox
+gtk-launch waterfox tmp.html 
+vim tmp.html 
+gtk-launch waterfox tmp.html 
+vim html2canvas.min.js 
+gedit html2canvas.min.js 
+ckear
+clear
+nvim scrot_extended 
+d
+cd
+cd Downloads/
+xdg-open Screen\ Shot\ 2022-01-15\ at\ 04.26.13.png 
+xdg-open Screen\ Shot\ 2022-01-15\ at\ 04.27.36-fullpage.png 
+xdg-open Screen\ Shot\ 2022-01-15\ at\ 04.29.42.png 2
+xdg-open Screen\ Shot\ 2022-01-15\ at\ 04.29.42.png 
+cd projects/scrot_extended/
+python3 scrot_extended
+python3 scrot_extended --help
+init 0
+nano .bashrc
+ckear
+clear
+xinit
+startx
+reboot
+sudo su
 clear
 exit
+cd /var/log
+s
+cat syslog | less
+tac syslog | less
+clear
+exit
+sudo apt remove cloudflare-warp 
+sudo apt remove --purge cloudflare-warp 
+clear
+exit
+last
+date
+echo $DISPLAY 
+exit
+free -
+free --mega
+clear
+htop
+sudo systemctl stop mysql.service 
+mcd temp
+cd ..
+mcd tmp
+man dhash
+xdotool selectwindow 
+gnome-screenshot --help
+gnome-screenshot -i
+gnome-screenshot -0a
+gnome-screenshot -a
+clear
+xdotool search --onlyvisible --name waterfox windowsize %1 800 600
+xdotool search --onlyvisible --name waterfox windowsize %1 800 600 windowmove 100 200
+xdotool search --onlyvisible --name waterfox
+xdotool windowmove 12582915 200 200
+xdotool windowsize 12582915 200 200
+xdootool search --onlyvisible --name waterfox windowmove 100 100
+xdotool search --onlyvisible --name waterfox windowmove 100 100
+xdotool search --onlyvisible --name waterfox windowmove 100 200
+xdotool search --onlyvisible --name waterfox windowmove 1000 200
+xdotool search --onlyvisible --name waterfox windowmove 100 200
+wmctrl -lp
+wmctrl -lp | grep  6709
+wmctrl -lp | grep  6709 | cut "-d" -f1
+wmctrl -lp | grep  6709 | cut "-d " -f1
+wmctrl -lp | grep  6709 | cut "-d/" -f1
+wmctrl -lp | grep  6709 | cut "-d-" -f1
+wmctrl -lp | grep  6709 | cut "-dt" -f1
+wmctrl -lp | grep  6709 | cut "-d " -f1
+wmctrl -lp | grep  6709 | cut "-d " -f2
+wmctrl -lp | grep  6709 | cut "-d-" -f2
+wmctrl -lp | grep  6709 | cut "-d " -f1
+print 0x00c00003
+printf 0x00c00003
+printf "0x00c00003"
+echo  "$((16#0x00c00003))"
+echo  "$((8#0x00c00003))"
+echo  "$((2#0x00c00003))"
+echo  "$((32#0x00c00003))"
+echo  "$((64#0x00c00003))"
+echo  "$((65#0x00c00003))"
+echo  "$((128#0x00c00003))"
+echo  "$((64#0x00c00003))"
+echo "$((0x00c00003))
+echo "$((0x00c00003))"
+echo  "$((16#00c00003))"
+wmctrl -i -r  "$((16#00c00003))" -e 1,50,50,500,500
+wmctrl -i -r  "$((16#00c00003))" -e 1,50,50,500,5000
+wmctrl -i -r  "$((16#00c00003))" -e 1,50,50,5000,500
+man wmctrl
+cd app_builds/
+rm -rf fastimagehash/
+git clone https://github.com/simon987/fastimagehash.git
+apt install libopencv-dev libfftw3-dev cmake
+sudo apt install libopencv-dev libfftw3-dev cmake
+rm -rf fastimagehash/
+git clone --recursive https://github.com/simon987/fastimagehash
+cd fastimagehash/
+cd ../
+cp -r fastimagehash/* temp/*
+cp -r fastimagehash/* temp
+cd temp/
+cd ../fastimagehash/
+cllear
+clear
+cd cmake/
+cat README.md 
+cd ../
+lls
+cat CMakeLists.txt 
+cmake .
+cat cmake_
+cat cmake_install.cmake 
+CMAKE_INSTALL_PREFIX=/home/jaga-matrix/app_builds/tmp
+make
+vim /home/jaga-matrix/app_builds/fastimagehash/thirdparty/benchmark/src/benchmark_register.h
+make
+vim /home/jaga-matrix/app_builds/fastimagehash/thirdparty/benchmark/src/benchmark_register.h
+make
+cat Makefile 
+make help
+make list_install_components
+make install/local
+make install/local --prefix=/home/jaga-matrix/app_builds/tmp
+rm -rf *
+mv ../temp/* ./
+cp ./* ../temp/
+cp -r ./* ../temp/
+clear
+cmake --help
+cmake .
+make 
+vim /home/jaga-matrix/app_builds/fastimagehash/thirdparty/benchmark/src/benchmark_register.h
+make 
+cd Bin/
+cd ../
+cd CMakeFiles/
+cd ../
+make --help
+sudo make --dry-run install 
+sudo make install 
+sudo cp /usr/lib/libfastimagehash.so ../
+sudo cp /usr/include/fastimagehash.h ../
+cd ../
+less fastimagehash
+less fastimagehash.h 
+less libfastimagehash.so 
+less fastimagehash.h 
+vim tmp.py
+./scrot_extended --help
+./scrot_extended -t 200,300,1700,1000 -s
+watch -n 1 'xdotool getmouselocation'
+./scrot_extended -t 127,137,1617,978 -s
+rm scrot_
+rm scrot_sample_img.png 
+watch -n 1 'xdotool getmouselocation'
+./scrot_extended -t 127,137,1615,970 -s
+./scrot_extended -t 0,50,1490,834 -s
+./scrot_extended -t 0,100,1490,834 -s
+./scrot_extended -t 0,100,1490,834 
+xdotool selectwindow --help
+free -h
+git add .
+git checkout main 
+git checkout dev 
+git checkout main
+git status
+mv tmp.html ../
+mv html2canvas.min.js ../
+git status
+ls ../
+git status
+rm html2canvas.min.js  tmp.html 
+clear
+gnome-terminal
+./scrot_extended --help
+./scrot_extended --debug --iselect-window --help
+./scrot_extended --debug --iselect-window --single
+gnome-terminal
+./scrot_extended --debug --iselect-window --single
+./scrot_extended --debug --iselect-window 
+./scrot_extended --debug --select-window code
+./scrot_extended --debug --select-window cadfaddf
+git status
+git add
+git add .
+git status
+git commit -m "Added gitignore and now, can interactively select window, and by name also, debug option added"
+clear
+git branch
+cler
+exit
+init 0
+1 1 0 0
+1 2
+1 3
+cd "/home/jaga-matrix/programming/cp/dp/" && g++ dp5.cpp -o dp5 && "/home/jaga-matrix/programming/cp/dp/"dp5
+python3 -u "/home/jaga-matrix/learn/flask/flask-proj/hellowor;l.py"
+. ../flask-env/bin/activate
+clear
+python3 hellowor.py 
+export FLASK_APP=hellowor.py
+flask run
+export FLASK_APP=app.py 
+flask run
+export FLASK_APP=app.py 
+export FLASK_APP=app
+flask run
+export FLASK_APP=app.py 
+
+cd ../flask-env/
+pip3 install flask_sqlalchemy
+cd -
+clear
+export FLASK_APP=app.py 
+. ../flask-env/bin/activate
+clear
+sudo apt install python-virtualenv
+sudo apt install python3-virtualenv
+clear
+mcd learn
+mcd flask
+python3 -m venv flask-env
+sudo apt install python3.9-venv
+python3 -m venv flask-env
+. flash-env/bin/activate
+cd flask-env/
+. venv/bin/activate
+pip install Flask
+pip3 install Flask
+. bin/activate
+clear
+code ./
+cd ../
+mcd flask-proj
+code ./
+pip install -U Flask-SQLAlchemy
+. ../flask-env/bin/activate
+clear
+export FLASK_APP=app.py 
+flask run
+. ../flask-env/bin/activate
+export FLASK_APP=app.py 
+flask run
+cd ../flask-env/
+pip install  Flask-SQLAlchemy
+clear
+. bin/activate
+clear
+exit
+Downloads/
+cd Downloads/
+cat phashcompare 
+cat phashconvert 
+compare --help
+cd college/4th_sem/screenshots/probability\ \(copy\)/
+compare -metric dhash probability_2022-01-07_11-11-47.png  probability_2022-01-07_11-12-59.png 
+compare -metric dhash probability_2022-01-07_11-11-47.png  probability_2022-01-07_11-12-59.png null:
+compare -metric ahash probability_2022-01-07_11-11-47.png  probability_2022-01-07_11-12-59.png null:
+compare -metric phash probability_2022-01-07_11-11-47.png  probability_2022-01-07_11-12-59.png null:
+compare -metric phash probability_2022-01-07_11-11-47.png  probability_2022-01-07_11-12-59.png 
+compare -metric phash probability_2022-01-07_11-11-47.png  probability_2022-01-07_11-12-59.png null:
+. ../flask-env/bin/activate
+clear
+echo $PATH
+tail .bashrc
+cat .bashrc.local 
+cd .bash
+cat bash_profile 
+cat export 
+exit
+cd /usr/local/
+clear
+cd
+cd go/
+cd bin/
+cd ../
+clear
+cd
+wget 'https://go.dev/dl/go1.17.6.linux-amd64.tar.gz'
+tar -C /usr/local -xzf go1.17.6.linux-amd64.tar.gz 
+sudo tar -C /usr/local -xzf go1.17.6.linux-amd64.tar.gz 
+dash
+cat .profile 
+echo $PATH
+exit
+sudo rm -rf /usr/local/bin/waterfox
+cd
+sudo tar -xj -C '/usr/local/bin/' -f waterfox-G4.0.6.en-US.linux-x86_64.tar.bz2 
+exit
+aria2c -x 5 'https://github.com/WaterfoxCo/Waterfox/releases/download/G4.0.6/waterfox-G4.0.6.en-US.linux-x86_64.tar.bz2'
+type install_deb
+cd projects/ubuntu_setup-testing/
+cd scripts/
+cat application_setup.sh 
+./songs.sh --help
+./songs.sh "nanbiye song download masstamilan"
+./songs.sh --toplinks $_
+./songs.sh --toplinks "nanbiye song download masstamilan"
+./songs.sh --top-links "nanbiye song download masstamilan"
+./songs.sh  "nanbiye song download masstamilan"
+clear
+./songs.sh  "nanbiye song download masstamilan"
+clear
+./songs.sh  "nanbiye song download masstamilan"
+./songs.sh  "nanbiye song download masstamilan"\
+./songs.sh  "nanbiye song download masstamilan"
+nvim triflib.h 
+sudo apt-get install gcc libc6-dev
+clear
+lync
+lynx
+lynx www.google.com
+clear
+sudo apt-get purge lynx
+sudo apt-get install lynx
+cd .config/
+cd nvim
+nvim init.vim 
+cd
+cd projects/
+cd trif
+vim trif.c 
+clear
+wc -l trif_recreated.c 
+cat trif_recreated
+cat trif_recreated.c
+./trif_recreated ../
+clear
+exit
+nvim
+clear
+exi
+exit
+cd .config/
+nvim
+nvim\
+nvim
+exit
+nvim
+clear
+cd graph/
+g++ cycle-detect.cpp 
+cd "/home/jaga-matrix/programming/cp/graph/" && g++ cycle-detect.cpp -o cycle-detect && "/home/jaga-matrix/programming/cp/graph/"cycle-detect
+vim
+nvim --help
+nvim --noplugin
+cd programming/
+cd cp/
+nvim dp
+nvim graph/cycle-detect.cpp
+git status
+git branch
+git add .
+git commit -m "bug fix for -a"
+git push
+clear
+./scrot_extended --help
+code graph/
+cd
+cd projects/
+l
+cd scrot_extended/
+./scrot_extended --single --select -a 135,168,1485,834
+./scrot_extended  -a 135,168,1485,834 --iselect-window --single
+./scrot_extended  -a 135,168,1485,820 --iselect-window --single
+./scrot_extended  -a 135,168,1485,800 --iselect-window --single
+./scrot_extended  -a 135,168,1485,800 --iselect-window --classname dbms
+./scrot_extended  -a 135,168,1485,800 --iselect-window --c dbms
+./scrot_extended  -a 135,168,1485,800 --iselect-window -c dbms
+clear
+./scrot_extended  -a 135,168,1485,800 --iselect-window -c probability --single
+./scrot_extended  -a 120,168,1485,800 --iselect-window -c probability --single
+./scrot_extended  -a 60,168,1485,800 --iselect-window -c probability --single
+./scrot_extended  -a 70,168,1485,800 --iselect-window -c probability --single
+./scrot_extended  -a 70,168,1475,800 --iselect-window -c probability --single
+./scrot_extended  -a 70,118,1475,800 --iselect-window -c probability --single
+./scrot_extended  -a 70,148,1475,800 --iselect-window -c probability --single
+./scrot_extended  -a 70,148,1475,800 --iselect-window -c probability 
+./scrot_extended  -a 70,148,1475,840 --single --iselect-window -c probability 
+./scrot_extended  -a 70,148,1475,800 --single --iselect-window -c probability 
+./scrot_extended  -a 70,148,1475,830 --single --iselect-window -c probability 
+./scrot_extended  -a 70,148,1475,830 --iselect-window -c probability 
+ln -s /home/jaga-matrix/Pictures/screenshots/probability /home/jaga-matrix/college/4th_sem/screenshots/probability
+ln -s /home/jaga-matrix/Pictures/screenshots/dbms/ /home/jaga-matrix/college/4th_sem/screenshots/dbms
+ln -s /home/jaga-matrix/Pictures/screenshots/default /home/jaga-matrix/college/4th_sem/screenshots/default
+cat ~/.bash/functions 
+cd 
+cd college/4th_sem/screenshots/probability
+remove_alpha 
+clear
+vim /
+cd
+cd projects/ubuntu_setup-testing/dotfiles/bash/
+l
+histg ls
+histg xargs
+vim functions 
+func(){ cd ${1:-..} }
+func(){ cd ${1:-..} ;  }
+type func.sh 
+cat /home/jaga-matrix/.local/bin/func.sh
+func.sh
+rm /home/jaga-matrix/.local/bin/func.sh
+clear
+func /home/jaga-matrix/
+func /home/jaga-matrix/college/
+func 
+cd projects/ubuntu_setup-testing/dotfiles/bash/
+func 
+cd
+cd Downloads/
+img2pdf --help
+img2pdf Screen\ Shot\ 2022-01-17\ at\ 04.18.54.png -o tmp.pdf
+img2pdf output.png -o tmp.pdf
+./scrot_extended --help
+cd
+cd 
+cd projects/ubuntu_setup-testing/dotfiles/bash/
+vim functions 
+nvim
+clear
+exit
+cd 
+cd college/4th_sem/screenshots/probability
+lls
+mkpdf 
+hello=tmp.pdf
+ls -Q -1 | tr '\n' ' ' | sed 's/$/\ --output\ ${hello}/'
+cd
+cd college/4th_sem/
+cd screenshots/probability
+mkpdf 
+rm COA.pdf 
+type mkpdf
+vim
+mkpdf 
+rm mydoc.pdf 
+mkpdf 
+ls -Q -1 *pdf
+ls -Q -1 *.png
+ls -Q -1 "*.png"
+ls -Q -1 *.png'
+ls -Q -1 '*.png'
+ls -Q -1 *.png
+nvim
+cd ../ubuntu_setup-testing/scripts/
+vim github-ssh-setup
+nvim
+cd college/4th_sem/screenshots/probability
+mkpdf
+open mydoc.pdf 
+sudo nvim
+echo 'export PATH=$PATH:/usr/local/go/bin'
+cd
+cd  learn/
+mkdir go
+cd go/
+vim session.md
+vim hello.go
+go --version
+go run hello.go 
+vim hello.go 
+exxt
+git pull
+clear
+sudo systemctl start mysql.service
+sudo apt install mysql-server
+sudo apt update
+sudo atp upgrade
+sudo apt upgrade
+clear
+exit
+histg sql
+exit
+go run hello1.go 
+clear
+cd
+mysql
+histg mysql
+sudo mysql
+mysql-workbench 
+sudo mysql-workbench 
+clear
+sudo apt install golang-go
+cd /usr/local/
+rm -rf go
+sudo rm -rf go
+cd 
+sudo apt install golang-go
+sudo apt remove --purge golang-go 
+clear
+go --version
+sudo apt install golang-go
+go --version
+sudo apt autoremove 
+sudo apt autoclean
+clear
+cd
+sudo apt install golang-go
+sudo apt remove golang-go
+sudo apt autoremove 
+sudo apt remove golang-go
+sudo apt install golang-go
+nvim
+cd projects/ubuntu_setup-testing/scripts/
+cat application_setup.sh 
+vim application_setup.sh 
+git config --hel
+git config --global user.email 'jagadeeshanmsj@gmail.com'
+git config --global user.name 'ms-jagadeeshan'
+cd ../
+cd telegram_media_downloader/
+cat media_downloader.py 
+cd ..
+cd  l
+cd  launch-meet/
+cd src/
+cat classes.json 
+cat config.json 
+ls -a
+git init
+ls -a
+rm -rf .git/
+cd ../
+git init 
+git status
+git add .
+git commit -m "src added"
+git push
+cd
+cd .ssh/
+ssh-keygen -t ed25519 -C "jagadeeshanmsj@github.com"
+vim connfig
+vim config
+ssh-add id_ed25519
+pbcopy < ~/.ssh/id_ed25519.pub
+ssh-copy-id --help
+xclip --help
+xclip 
+xclip -
+xclip -h
+xclip -i id_ed25519.pub -selection clipboard
+cat id_ed25519.pub 
+clear
+cat id_ed25519
+clear
+cd
+cd projects/
+cd launch-meet/
+git branch 
+git status
+git push
+git remote set-url origin git@github.com:ms-jagadeeshan/launch-meet.git
+git push
+sudo apt-get install pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra
+sudo apt install npm
+sudo systemctl enable mysql
+sudo systemctl start mysql
+sudo systemctl status mysql
+mysql -u root -p
+sudo systemctl status mysql
+sudo mysql_secure_installation 
+clear
+mysql -u root -p
+mysql -u jaga-matrix -p
+sudo mysql -u root -p
+mysql -u jaga-matrix -p
+sudo mysql -u root -p
+cler
+clear
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' " 1 2  2 3 
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;" 1 2  2 3 
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  4343524 1 CSE DAA | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  353536 2 CSE TOC | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  353536 2 ECE  | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  343544 3 ECE  COA | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  643756 4 CSE Probability    | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  643534 5 CSE Calculus  | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  6454354 6 CSE Differential  | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  635373 7 ECE  Differential  | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  1783244 8 ECE Calculus  | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  1735354 9 MSM Calculus  | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  1252723 10 MSM Differential  | xclip -selection clipboard
+printf "INSERT INTO Faculty VALUES ( %d  , \'Professor %d\' , \'%s\' , \'%s\' ) ;"  1735354 9 MSM Calculus  | xclip -selection clipboard
+printf "INSERT INTO Building VALUES ( \'%s\' , %d , %d  ) ;"  Lab_block 13 1  | xclip -selection clipboard
+printf "INSERT INTO Building VALUES ( \'%s\' , %d , %d  ) ;"  Lab_block 24 2  | xclip -selection clipboard
+printf "INSERT INTO Orders  VALUES ( %d , %d , %d , \'%s\' , \'%s\' ,\'%s\', \'%s\');" 
+vim tmp.sh
+vim tmp.sh 
+bash tmp.sh 
+vim tmp.sh 
+printf "INSERT INTO Orders  VALUES ( %d , %d , %d , \'%s\' , \'%s\' , \'%s\', \'%s\');"  004 200 3000 15-aug-2020 C004 Ac001 Masalakulcha
+printf "INSERT INTO Orders  VALUES ( %d , %d , %d , \'%s\' , \'%s\' , \'%s\', \'%s\');"  004 200 3000 15-aug-2020 C004 Ac001 Masalakulcha | xclip
+printf "INSERT INTO Orders  VALUES ( %d , %d , %d , \'%s\' , \'%s\' , \'%s\', \'%s\');"  004 200 3000 15-aug-2020 C004 Ac001 Masalakulcha | xclip -selection clipboard
+printf "INSERT INTO Orders  VALUES ( %d , %d , %d , \'%s\' , \'%s\' , \'%s\', \'%s\');"  007 600 5300 17-sept-2020 C006 Ac003 Briyani | xclip -selection clipboard
+printf "INSERT INTO Orders  VALUES ( %d , %d , %d , \'%s\' , \'%s\' , \'%s\', \'%s\');"  009 700 100 19-feb-2019 C007 Ac005 Briyani | xclip -selection clipboard
+printf "INSERT INTO Orders  VALUES ( %d , %d , %d , \'%s\' , \'%s\' , \'%s\', \'%s\');"  "009" 700 100 19-feb-2019 C007 Ac005 Briyani | xclip -selection clipboard
+printf "INSERT INTO Orders  VALUES ( %d , %d , %d , \'%s\' , \'%s\' , \'%s\', \'%s\');"  "008" 700 100 19-feb-2019 C007 Ac005 Briyani | xclip -selection clipboard
+printf "INSERT INTO Orders  VALUES ( %d , %d , %d , \'%s\' , \'%s\' , \'%s\', \'%s\');"  008 700 100 19-feb-2019 C007 Ac005 Briyani | xclip -selection clipboard
+printf "INSERT INTO Orders  VALUES ( %d , %d , %d , \'%s\' , \'%s\' , \'%s\', \'%s\');"  007 700 100 19-feb-2019 C007 Ac005 Briyani | xclip -selection clipboard
+mysql --help
+aria2c -x 15 'https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v3.0.11/Beekeeper-Studio-3.0.11.AppImage
+aria2c -x 15 'https://github.com/beekeeper-studio/beekeeper-studio/releases/download/v3.0.11/Beekeeper-Studio-3.0.11.AppImage'
+sudo  systemctl start mysqld
+sudo  systemctl start mysql
+sudo systemctl status mysql
+sudo mysql -u root -p
+vim cheat_sheet.md
+exit
+xclip -he
+cd college/4th_sem/
+mkdir dbms
+cd dbms/
+mkdir lab
+cd lab/
+mcd lab_1
+vim lab_1.sql
+mysql -u root
+sudo mysql -u root
+clear
+mysql_secure_installation 
+sudo apt remove --purge mysql-server
+sudo apt autoremove
+sudo apt install mysql-server
+mysql_secure_installation 
+sudo mysql_secure_installation 
+clear
+mysql -u root
+sudo mysql -u root
+histg proba
+./scrot_extended  -a 70,148,1475,830 --iselect-window -c probability --single
+cd projects/scrot_extended/
+./scrot_extended  -a 70,148,1475,830 --iselect-window -c probability --single
+./scrot_extended  -a 70,148,1475,830 --iselect-window -c probability
+clear
+cd
+cd learn/go/
+cd src/
+vim hello1.go 
+vim rea.md
+vim README.md
+git init
+ls 
+rm -rf .git/
+mv README.md ../
+cd ../
+git init
+git add README.md 
+git commit -m "First commit
+git commit -m "First commit"
+git branch -M main
+git remote add origin git@github.com:ms-jagadeeshan/go-session.git
+git push -u origin main
+cd
+cd learn/
+cd go/
+mkdir src
+mv *go src/
+cd src/
+go build
+go build hello.go 
+./hello 
+go install hello
+go install hello@latest
+cd ../
+go install
+go help modules
+yes -h
+yes --help
+yes
+clear
+yes --help
+yes h | head 10
+yes h | head
+ps? 
+ps? yes
+pstree
+clear
+sudo apt update
+cd projects/scrot_extended/
+histg scr
+./scrot_extended  -a 70,148,1475,830 --iselect-window -c coa-lab
+./scrot_extended  -a 70,148,1475,830 --iselect-window -c coa-lab --single
+./scrot_extended  -a 70,148,1475,830 --iselect-window -c coa-lab 
+cd 
+cd Pictures/
+cd screenshots/coa-lab/
+remove_alpha 
+mkpdf 
+cd 
+cd tmp/
+gcc -Wa,-adhln -g -x c -c -O4 -lineinfo -masm=intel tmp.c
+gcc -x c -c -O4 -Wall -g -lineinfo -masm=intel -S tmp.c
+cat tmp.s
+clear
+cd
+cd tmp/
+vim tmp.c
+gcc -g -c tmp.cc
+gcc -g -c tmp.c
+objdump -d -M intel -S tmp.o
+gcc -g -c -fverbose-ask tmp.c
+gcc -g -c -fverbose-asm tmp.c
+cat tmp.o
+clear
+objdump -d -M intel -S tmp.o
+xxd tmp.o
+clear
+objdump tmp.o
+objdump -d tmp.o
+objdump -d -M intel -S tmp.o
+vim tmp.c
+gcc -g -c tmp.c
+vim tmp.c
+gcc -g -c tmp.c
+objdump -d -M intel -S tmp.o
+objdump  -S tmp.o
+objdump -d -M intel -S tmp.o
+xxd 
+xxd tmp.o
+cclear
+clear
+gcc -s tmp.o
+gcc -s tmp.c
+objdump tmp.o
+objdump -s tmp.o
+objdump -S tmp.o
+objdump -d -M intel -S tmp.o
+cd college/4th_sem/screenshots/probability
+remove_alpha 
+clear
+mkpdf 

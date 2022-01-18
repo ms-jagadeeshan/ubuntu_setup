@@ -113,3 +113,28 @@ function exifclean() {
     exiftool -p '$filepath $gpslatitude $gpslongitude' -a -gps:all * 2> /dev/null | awk '{system("exiftool -overwrite_original '-gps*=' "$1" 2>/dev/null")}'
 }
 ### Remove gps exif ### }}}
+
+### youtube playlist download ### {{{
+## syntax: ydl-playlist 1 10 <playlist-link>
+function ydl-playlist() {
+    while [ "$?" != "0" ] ; do 
+	yt-dlp --concurrent-fragments 100 --playlist-start ${1:-1} --playlist-end ${2:-200} --embed-subs --sub-langs en --embed-chapters --embed-metadata --write-auto-subs -o '%(playlist_index)s-%(title)s.%(ext)s' $3
+    done
+}
+
+### remove alpha from images of current folder
+## syntax: remove_alpha
+function remove_alpha()
+{
+    for file in *.png ; do convert "$file" -background white -alpha remove -alpha off "$file" ; done
+}
+
+### converts images to pdf
+## syntax: mkpdf      # by default current folder
+## syntax: mkpdf ../
+function mkpdf()
+{
+    pushd "${1:-.}"
+    ls -Q -1 *.png | tr '\n' ' ' | sed 's/$/\ --output\ mydoc.pdf/' | xargs  img2pdf
+    popd
+}

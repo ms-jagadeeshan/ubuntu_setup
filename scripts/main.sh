@@ -15,7 +15,7 @@ fi
 
 case "$1" in
 -i)
-	scripts=('debloat.sh' 'keybindings.sh' 'application_setup' 'dotfiles.sh' 'projects_setup' 'hosts.sh' 'gnome_extensions_setup.sh')
+	scripts=('debloat.sh' 'keybindings.sh' 'application_setup.sh' 'dotfiles.sh' 'projects_setup.sh' 'hosts.sh' 'gnome_extensions_setup.sh')
 	scripts_bool=(1 0 1 1 0 1 1)
 	options_str=""
 	options_bool=""
@@ -27,8 +27,10 @@ case "$1" in
 	done
 
 	multiChoice "Select scripts to run:" result "${options_str}" "${options_bool}"
+	echo results ${result[@]}
 	for i in "${result[@]}"; do
-		./"${script[i]}"
+		echo execting "${scripts[i]}"
+		./${scripts[i]}
 	done
 	exit 0
 	;;

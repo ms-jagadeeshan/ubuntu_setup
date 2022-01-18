@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -x -e
 extension_list=(
     'https://extensions.gnome.org/extension-data/netspeedhedayaty.gmail.com.v33.shell-extension.zip'
 
@@ -36,6 +37,7 @@ gnome-ext-install() {
 
     # Extract the ZIP-file to a subdirectory with the same name as the "uuid".
     unzip -q -o $1 -d ~/.local/share/gnome-shell/extensions/$MY_EXT_UUID
+    sleep 2
     gnome-extensions enable $MY_EXT_UUID
     # Restart Gnome Shell to activate the Gnome Shell extension.
     # busctl --user call org.gnome.Shell /org/gnome/Shell org.gnome.Shell Eval s 'Meta.restart("Restarting…")' > /dev/null 2>&1
@@ -88,7 +90,7 @@ function install_jq() {
 checkOS
 install_jq
 
-TEMP_DIR="~/tmp"
+TEMP_DIR="${HOME}/tmp"
 mkdir -p ${TEMP_DIR}
 pushd ${TEMP_DIR} >/dev/null
 for extension in "${extension_list[@]}"; do

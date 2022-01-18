@@ -1,12 +1,12 @@
 #!/bin/sh
 
 ### Uncomment it if you dont want to execute ###
-# RUN_DEBLOAT=false # removes snap firefox and snap
-KEYBINDINGS_SETUP=false   # sets keybindings
-# APPLICATION_SETUP=false # installs applications
-# DOTFILES_SETUP=false    # sets up dotfile i.e .bashrc,etc..
-PROJECTS_SETUP=false      # downloads my git projects
-# GNOME_EXTENSION_SETUP=false
+ #RUN_DEBLOAT=false # removes snap firefox and snap
+#KEYBINDINGS_SETUP=false   # sets keybindings
+ #APPLICATION_SETUP=false # installs applications
+ #DOTFILES_SETUP=false    # sets up dotfile i.e .bashrc,etc..
+#PROJECTS_SETUP=false      # downloads my git projects
+ #GNOME_EXTENSION_SETUP=false
 
 ### Config to add hosts list /etc/hosts
 #  1)Unified hosts = (adware +malware)
@@ -27,30 +27,30 @@ PROJECTS_SETUP=false      # downloads my git projects
 ## put your option in HOST_OPTION
 ## Uncomment if you don't want to run
 # RUN_HOST_SH=false
-HOST_OPTION=12
+HOST_OPTION=6
 
 # Uncomment it if you don't want to install
  INSTALL_VSCODE=false
 INSTALL_GO_COMPILER=false
 INSTALL_TEAMS=false
- INSTALL_NOISETORCH=false
+ #INSTALL_NOISETORCH=false
 
- INSTALL_TELEGRAM=false
-TELEGRAM_INSTALL_DIR="~/app_builds"
+# INSTALL_TELEGRAM=false
+TELEGRAM_INSTALL_DIR="$HOME/app_builds"
 
 INSTALL_XMRIG=false
-XMRIG_INSTALL_DIR="~/app_builds"
+XMRIG_INSTALL_DIR="$HOME/app_builds"
 
 INSTALL_MONERO_WALLET=false
-MONERO_WALLET_INSTALL_DIR="~/app_builds"
+MONERO_WALLET_INSTALL_DIR="$HOME/app_builds"
 
  INSTALL_WATERFOX=false
 WATERFOX_INSTALL_DIR="/usr/local/bin"
 
- INSTALL_VENTOY=false
-VENTOY_INSTALL_DIR="~/app_builds"
+# INSTALL_VENTOY=false
+VENTOY_INSTALL_DIR="$HOME/app_builds"
 
 ### Temporary directory to download the files
-TEMP_DIR="~/tmp"
+TEMP_DIR="$HOME/tmp"
 
 
