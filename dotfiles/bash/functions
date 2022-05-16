@@ -130,11 +130,23 @@ function remove_alpha()
 }
 
 ### converts images to pdf
-## syntax: mkpdf      # by default current folder
-## syntax: mkpdf ../
+## syntax: mkpdf <output_name> <path(optional)>     # by default current folder
+## syntax: mkpdf output.pdf 
 function mkpdf()
 {
-    pushd "${1:-.}"
-    ls -Q -1 *.png | tr '\n' ' ' | sed 's/$/\ --output\ mydoc.pdf/' | xargs  img2pdf
+    pushd "${2:-.}"
+    ls -Q -1 *.png | tr '\n' ' ' | sed "s/$/\ --output\ ${1:-docs.pdf}/" | xargs  img2pdf
     popd
+}
+
+### Prints as hyper link
+## Syntax: hyperl <link> <link-text>
+function hyperl()
+{
+    printf "\e]8;;$1\e\\$2\e]8;;\e\\\\\n"
+}
+
+function compile_nasm(){
+    nasm -f elf $1
+    ld -m elf_i386 -s -o ${1%.asm} ${1%.asm}.o
 }

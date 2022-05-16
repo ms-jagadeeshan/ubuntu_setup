@@ -36,7 +36,7 @@ Exec="/usr/local/bin/waterfox/waterfox"
 Categories=GNOME;GTK;Network;WebBrowser;
 MimeType=text/html;text/xml;application/xhtml+xml;application/xml;application/rss+xml;application/rdf+xml;image/gif;image/jpeg;image/png;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/chrome;video/webm;application/x-xpinstall;
 StartupNotify=true' | tee $HOME/.local/share/applications/waterfox.desktop >/dev/null
-    echo_color -y "Desktop shortcut created!!"
+    echo "Desktop shortcut created!!"
     popd >/dev/null
 }
 

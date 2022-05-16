@@ -12,7 +12,7 @@ export HISTCONTROL="ignoreboth"
 export HISTFILESIZE=                        # NOTE: effectively "unlimited", since it's defined but without value
 export HISTSIZE=                            # https://superuser.com/questions/137438/how-to-unlimited-bash-shell-history
                                             # https://unix.stackexchange.com/a/20925
-export HISTIGNORE='ls:bg:fg:history'
+export HISTIGNORE='ls:bg:fg:history:clear'
 
 # colored GCC warnings and errors
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'

@@ -24,12 +24,14 @@ so ~/.bash/hosts/${HOSTNAME}_conf    ## configuration per OS linux/OSX
 
 ## This is last, so it can override everything.
 # Less fighting with mini installs.
-so ~/.bash/bashrc.local              ## machine specific config. not tracked
-so ~/.bashrc.local                      ## machine specific config. not tracked
+#so ~/.bash/bashrc.local              ## machine specific config. not tracked
+#so ~/.bashrc.local                      ## machine specific config. not tracked
 ### End Overrides ### }}}
 
 
 [ -d ~/bin ] && export PATH=~/bin:$PATH # users' ~/bin/ takes precedence
 # [ -d ~/.local/bin ] && export PATH=~/.local/bin:$PATH # untracked local stuff
+
+so ~/.bashrc.local
 
 # vim: ft=sh

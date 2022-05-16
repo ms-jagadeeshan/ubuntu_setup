@@ -1,1 +1,6 @@
 source $HOME/.bash/bash_profile
+. "$HOME/.cargo/env"
+
+if [ -f "${HOME}/.ros.bash" ]; then
+    source ${HOME}/.ros.bash
+fi
